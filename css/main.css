@@ -222,6 +222,7 @@ input[type=submit] {
 
 .ttun {
 	padding: 10px;
+	margin-bottom: 0;
 }
 
 .ttun-pic {
@@ -259,7 +260,7 @@ input[type=submit] {
 	background-color: #000;
 	height: 600px;
 	margin: 0;
-	padding: 20px 0;
+	padding: 20px 10px;
 	text-align: center;
 }
 
@@ -301,26 +302,55 @@ input[type=submit] {
 
 .picks-intro {
 	background-color: #000;
-	margin:  -20px 0;
-	padding: 0 0 20px 0;
+	height: 900px;
+	margin: 0;
+	padding: 20px 10px;
+	text-align: center;
 }
 
-.picksrecord { 
-	margin: 10px ;
-	width: 20%;
-}
-
-.record  {
-	text-align: left;
+.picks-title {
 	color: #fff;
+	text-decoration: underline;
 }
 
-.picksweekly {
-	display: inline-block;
+.season-cfb {
+	display: inline;
+	padding-right: 10%;
+}
+
+.season-nfl {
+	display: inline;
+	padding-left: 10%;
+}
+
+.record-cfb {
+	color: #fff;
+	display: inline;
+	padding-right: 12%;
+}
+
+.record-nfl {
+	color: #fff;
+	display: inline;
+	padding-left: 11%;
+}
+
+.record-intro {
+	padding: 10px 0 20px 0;
+}
+
+.picks-pic {
+	border: 3px solid #778899;
+	border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+	width: 60%;
+	height: 400px;
 }
 
 .vegas {
-	background: url('../img/vegas.jpg')
+	background: url('../img/california-nevada-sports-betting.jpg')
 		no-repeat;
 	background-size: 100% 510px;
 	border-top: 3px solid #ff2400;
@@ -328,6 +358,20 @@ input[type=submit] {
 	text-align: center;
 	color: #f2f2f2;
 	padding: 10px 0 20px 0;
+}
+
+.picksweekly {
+	padding: 20px 10px;
+
+}
+
+.my-picks {
+	text-align: left;
+}
+
+.picks-talk {
+	color: #fff;
+	text-align: left;
 }
 
 /*******************************
@@ -502,6 +546,17 @@ footer {
 /*******************************
    Media Queries
 *******************************/
+@media (max-width: 1100px) {
+	.home-intro {
+		height: 1300px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.home-intro {
+		height: 1200px;
+	}
+}
 
 @media (max-width: 800px) {
 	
@@ -522,9 +577,19 @@ footer {
 	input[type=submit] {
 	   height: 1.5em;
 	}
+
+	.home-intro {
+		height: 1050px;
+	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
+	.home-intro {
+		height: 1100px;
+	}
+}
+
+@media (max-width: 650px) {
 	
 	body {
 		font-size: .75em;
@@ -588,6 +653,14 @@ footer {
 	#chatwindow {
 		width: 70%;
 		height: 240px;
+	}
+
+	.home-intro {
+		height: 900px;
+	}
+
+	.picks-intro {
+		height: 850px;
 	}
 
 	textarea {

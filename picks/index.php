@@ -41,28 +41,29 @@ include(ROOT_PATH . 'inc/header.php');
 		<h2>Game Picks & Odds Chat</h2>
 	</header>
 		<div class="picks-intro">
-			<div class="picksrecord">
-				<h3>2015 CFB</h3>
-					<p class="record">26-21-2</p>
-				<h3>2015 NFL</h3>
-					<p class="record">15-4</p>
+			<h2 class="picks-title">Season Record To Date</h2>
+			<div class="picks-record">
+				<h3 class="season-cfb">2015 CFB</h3>
+				<h3 class="season-nfl">2015 NFL</h3>
+			</div>
+			<div class="record-intro">
+				<h4 class="record-cfb">26-21-2</h4>
+				<h4 class="record-nfl">15-4-1</h4>
 		  </div> 
-		  <!--
-
-
-		  hello whatever whatever
-		  
-		  <div class="picksweekly">
-		  	<h3>Weeekly Picks</h3>
-		  	<p>Who I like this week.</p>
+		  <img src="../img/vegas.jpg" class="picks-pic">
+		  <div class="picks-weekly">
+		  	<h3 class="my-picks">Michingan State +8</h3>
+		  	<p class="picks-talk">No doubt that Michigan has impressed so far, but I believe that public opinion is ridding the Harbaugh train too hard here.
+		  		Michigan may pull out the win here, but in a rivalry game where Sparty has dominated of late. I'm taking the underdog and the points.</p>
+		   <h3 class="my-picks">Florida +9.5</h3>
+		   <p class="picks-talk">I know Grier is not playing for the Gators anymore this season, but this pick is based on Florida's defense. LSU has not gone 
+		   	up against a front 7 like this all season. Fournette will get his, but it won't come as easy. This will put more pressure on the quarterback position
+		   	of LSU. I like LSU to get the win here, but I see this as being a low scoring close game.</p>
+		   <h3 class="my-picks">Clemson -15.5</h3>
+		   <p class="picks-talk">BC has a strong defense, but they just got shutout @ home by Wake Forest!!! That is all the info I need. Clemson plays tough D 
+		   	too and a night game @ Death Valley is a difficult situation for anyone. Too much talent on Clemson's side with BC's inability to score puts me on the 
+		   	side of the home favorite here.</p>
 		  </div>
-		
-		  <img id="lines" src="../img/california-nevada-sports-betting.jpg" alt="lines">
-		  <img id="ball" src="../img/images.jpg" alt="Ball">
-		  
-		  <img id="vegas" src="../img/vegas.jpg" alt="Vegas">
-			<img id="march" src="../img/March-Madness-Math.jpg" alt="Madness">
-			-->
 		</div>
 		<div class="vegas">
 			<div id="container">
