@@ -10,6 +10,7 @@ $chatname = $_SESSION['chatname'];
 include(ROOT_PATH . 'inc/header.php');
 ?>
 <body>
+	<div id="wrapper">
 	<header>
 		<nav class="page-links">
 			<ul>
@@ -40,6 +41,7 @@ include(ROOT_PATH . 'inc/header.php');
 		<h1>Billy's Sports Chat</h1>
 		<h2>General Chat</h2>
 	</header>
+
 	<div class="home-intro">
 		<h2 class="home-title">Big Week in the B1G</h2>
 		<h3>Penn State @ Ohio State</h3>

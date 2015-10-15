@@ -14,6 +14,10 @@ body.ballpark {
 	margin: 0px auto;
 }
 
+#wrapper {
+
+}
+
 /*******************************
    HEADER
 *******************************/
@@ -189,7 +193,7 @@ input[type=submit] {
 
 .home-intro {
 	background-color: #000;
-	height: 1300px;
+	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 20px 0;
@@ -211,7 +215,7 @@ input[type=submit] {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-	height: 100%;
+	height: 400px;
 	width: 60%;
 }
 
@@ -231,7 +235,7 @@ input[type=submit] {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 100%;
+  height: 400px;
   width: 60%;
 
 }
@@ -546,18 +550,51 @@ footer {
 /*******************************
    Media Queries
 *******************************/
-@media (max-width: 1100px) {
+
+@media (min-width: 1700px) {
+
+	.osu-pic {
+		width: 40%;
+	}
+
+	.ttun-pic {
+		width: 40%;
+	}
+
+	.picks-pic {
+		width: 40%;
+	}
+
+  .injury-pic {
+		width: 40%;
+	}
+}
+
+@media (max-width: 2000px) {
+	.home-intro {
+		height: 1300px;
+	}
+}
+
+@media (max-width: 1500px) {
+	
 	.home-intro {
 		height: 1300px;
 	}
 }
 
 @media (max-width: 1000px) {
+	
 	.home-intro {
-		height: 1200px;
+		height: 1250px;
+	}
+	
+}
+@media (max-width: 900px) {
+	.home-intro {
+		height: 1300px;
 	}
 }
-
 @media (max-width: 800px) {
 	
 	input {
@@ -577,15 +614,11 @@ footer {
 	input[type=submit] {
 	   height: 1.5em;
 	}
-
-	.home-intro {
-		height: 1050px;
-	}
 }
 
 @media (max-width: 750px) {
 	.home-intro {
-		height: 1100px;
+		height: 1350px;
 	}
 }
 
@@ -634,13 +667,13 @@ footer {
 		font-size: .75em;
 	}
 	
-	.signinpg {
+	.signin-page {
 		margin-left: 20%;
 		width: 60%;
 		height: 140px;
 	}
 
-	.signuppg {
+	.signup-page {
 		margin-left: 20%;
 		width: 60%;
 		height: 160px;
@@ -656,7 +689,15 @@ footer {
 	}
 
 	.home-intro {
-		height: 900px;
+		height: 800px;
+	}
+
+	.osu-pic {
+		height: 200px;
+	}
+
+	.ttun-pic {
+		height: 200px;
 	}
 
 	.picks-intro {
@@ -683,5 +724,9 @@ footer {
 	#march {
 		display: none;
 	}
-
+}
+@media (max-width: 550px) {
+	.home-intro {
+		height: 1000px;
+	}
 }
