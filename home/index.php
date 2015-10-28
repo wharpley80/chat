@@ -10,7 +10,6 @@ $chatname = $_SESSION['chatname'];
 include(ROOT_PATH . 'inc/header.php');
 ?>
 <body>
-	<div id="wrapper">
 	<header>
 		<nav class="page-links">
 			<ul>
@@ -41,30 +40,47 @@ include(ROOT_PATH . 'inc/header.php');
 		<h1>Billy's Sports Chat</h1>
 		<h2>General Chat</h2>
 	</header>
-
-	<div class="home-intro">
-		<h2 class="home-title">Big Week in the B1G</h2>
-		<h3>Penn State @ Ohio State</h3>
-		<div class="osu">
-			<img src="../img/b6005daf-5d1b-46b8-8f45-2f903257cb9e.jpg" class="osu-pic">
-			<p class="osu-body">Big weekend ahead in College Football with some key games on schedule in the Big Ten. 
-				The late game will feature Penn State traveling to Columbus to take on the #1 ranked Ohio State Buckeyes. 
-				Ohio State was lucky to escape Beaver Stadium last year with the W. They finally pulled it out with a 31-24 
-				double OT victory thanks to a pair of overtime touchdown runs by J.T. Barrett. These 2 teams are notorious for
-			 playing close games, and while Penn State is out manned they are riding a 5 game win streak. Ohio State has been 
-			 unimpressive and also hasn't covered all year, so don't be suprised if this one is closer than the experts think.</p>
+	 	<div class="home-intro">
+			<h2 class="home-title">The Punt</h2>
+				<img src="../img/img25343687.jpg" class="sparty-pic">
+				<p class="home-body">As much as I LOVE watching Michigan lose. After 10 years of them being irrelevant, then it just starts  
+					getting ridiculous. I'm not an idiot. I know that UM being competative is good for CFB, its good for the B1G, which in turn 
+					is good for my Buckeyes. And Harbaugh in year 1 has UM competative and way ahead of schedule. Many games don't live up to the
+					hype, but that was not the case here. Now State has been the most physical team in CFB over the past few years, so I was suprised
+					to see that Michigan was by far the more physical team in the first half. As the second half progressed then Sparty started winning
+					the battle in the trenches. This began to expose Michigan's weakness at the quarterback position and Connor Cook was the X factor. 
+					On State's final offensive drive UM came up with a clutch defensive stop forcing a turnover on downs. State forced UM to a 3 and
+					out and a punt which would probably be the final play...
+				</p>
+				<p class="home-body">The snap from the long snapper appeared to be right on the money, but the punter just straight up bobbled
+					and dropped it. This was bad enough, but it gets worse. Instead of simply falling on the ball, which would have left State with 
+					one last chance to throw a Hail Mary. The punter overwhelmed with the moment tried to pick the ball up and still get the punt off. 
+					Unfortunate for him there were several defensive players swarming him, which led to him throwing the ball further backwards. 
+					At this point Jalen Watts-Jackson scooped up the ball and followed an envoy of blockers 38 yards to the end zone. The UM 
+					fans/players had their hearts ripped out and the State fans/players were so overtaken by emotions that they looked more confused 
+					than the losing side. In 30 plus years of watching football this was probably the most jaw dropping ending to a game that I can 
+					ever remember. Leaving this as a game that will be talked about FOREVER, and with Sparty winning 7 of 8 in the inner state rivalry.
+					They hold the title of Big Brother... until proven otherwise. On a side note the hero of the game Watts-Jackson, was injured during 
+					the celebration and fractured his hip thus ending his season. 
+				</p>
+			<h2 class="home-title">To Flip or Not To Flip???</h2>
+				<img src="../img/96802665_display_image.jpg" class="flip-pic">
+		    <p class="home-body">
+		    	With bat flips being such a headline in sports the last month I found myself with mixed emotions. I truely love Baseball 
+		    	for all that it stands for. I can think of nothing that makes me feel closer to American Heritage than going to a Baseball 
+		    	game. That's why I try every year to take a Summer Ballpark Trip. So at first I found myself opposing bat flips for the 
+		    	basic fact that it is an unwritten rule in Baseball not to flip your bat so that you don't show up the opposing pitcher. Basically 
+		    	no matter how clutch a hit or how far you hit a home run. The batter is not aloud to show any emotion, and if he does even 
+		    	for 1 second just slow down and admire what he has done then he's going to get pegged his next time to bat. Now if all is equal 
+		    	then a pitcher should be held to the same standard, but that's not the case. Think of how many times you've seen a pitcher make a 
+		    	strikeout to end the inning and what does he do?? More often than not he will first pump and scream into his glove. 
+		    <p class="home-body">So what it comes down to is that pitchers must be treated like children and we can't hurt their feelings because 
+		    		they're too sensative. Now while I feel that Jose Bautista's bat flip was a little over the top... I felt that Yoenis Cespedes's 
+		    		flip was pretty bad ass. Now this brings me to the man pictured above. The GOAT and I can't think of anyone who didn't love his bat 
+		    		flipping or home run trot, just Rickey being Rickey. I close with the fact that Baseball has gone from being America's Pasttime 
+		    		to America's after thought and if fans want to see a bat flip... which they do. Then flip the damn thing!!!!
+		    </p>
 		</div>
-		<h3>Michigan State @ Michigan</h3>
-		<div class="ttun">
-			<img src="../img/harbaugh.jpg" class="ttun-pic">
-			<p class="ttun-body">I really doubt that Jim Harbaugh is missing the 49ers at all right now. The Niners are in the gutter and his Wolverines 
-				have posted 3 straight shutouts (14 total points allowed over the last 20 quarters). That being said... this will be Michigan's 
-				toughest opponent of the season to date. Sparty has been the BIG brother in this rivalry as of late winning 6 of 7. Mark 
-				Dantonio has built MSU into one of the best programs in the nation. Michigan is way ahead of schedule and State has not looked 
-				like the team of the past few years. I know the Wolverines are the trendy pick right not, but I'd have to side with the know 
-				comodity which is senior quarterback Connor Cook and Dantonio's system.</p>
-		</div>
-	</div>
   <div class="shoe">	
 		<?php if (!empty($_SESSION['login'])) { ?>
 			<div id="container">

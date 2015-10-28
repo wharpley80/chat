@@ -14,10 +14,6 @@ body.ballpark {
 	margin: 0px auto;
 }
 
-#wrapper {
-
-}
-
 /*******************************
    HEADER
 *******************************/
@@ -49,6 +45,7 @@ h3 {
 
 p {
 	text-align: center;
+	font-size: 1em;
 }
 
 label {
@@ -191,11 +188,15 @@ input[type=submit] {
    HOME PAGE
 *******************************/
 
+#home-wrapper {
+	height: 2500px;
+	margin: auto;
+}
+
 .home-intro {
 	background-color: #000;
-	height: 100%;
 	width: 100%;
-	margin: 0;
+  margin: auto;
 	padding: 20px 0;
 	text-align: center;
 }
@@ -205,28 +206,34 @@ input[type=submit] {
 	text-decoration: underline;
 }
 
-.osu {
-	padding: 10px;
-}
-
-.osu-pic {
-	border: 3px solid #778899;
+.sparty-pic {
+	border: 10px solid #778899;
 	border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-	height: 400px;
 	width: 60%;
 }
 
-.osu-body {
-	color: #fff;
-	text-align: left;
+.flip {
+		padding: 10px;
 }
 
-.ttun {
-	padding: 10px;
-	margin-bottom: 0;
+.flip-pic {
+	border: 10px solid #778899;
+	border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+	width: 40%;
+}
+
+
+.home-body {
+	color: #fff;
+	text-indent: 40px;
+	text-align: left;
+	padding: 0 15%;
 }
 
 .ttun-pic {
@@ -235,14 +242,7 @@ input[type=submit] {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 400px;
   width: 60%;
-
-}
-
-.ttun-body {
-	color: #fff;
-	text-align: left;
 }
 
 .shoe {
@@ -262,8 +262,8 @@ input[type=submit] {
 
 .fantasy-intro {
 	background-color: #000;
-	height: 600px;
-	margin: 0;
+	width: 100%;
+  margin: auto;
 	padding: 20px 10px;
 	text-align: center;
 }
@@ -271,6 +271,14 @@ input[type=submit] {
 .fantasy-title {
 	color: #fff;
 	text-decoration: underline;
+}
+.lion-pic {
+	border: 3px solid #778899;
+	border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+	width: 60%;
 }
 
 .injury-pic {
@@ -280,13 +288,6 @@ input[type=submit] {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 	width: 60%;
-	height: 400px;
-}
-
-.fantasy-talk {	
-	background-color: #000;
-	color: #fff;
-	text-align: left;
 }
 
 .fantasy {
@@ -306,8 +307,8 @@ input[type=submit] {
 
 .picks-intro {
 	background-color: #000;
-	height: 900px;
-	margin: 0;
+	width: 100%;
+  margin: auto;
 	padding: 20px 10px;
 	text-align: center;
 }
@@ -350,7 +351,6 @@ input[type=submit] {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 	width: 60%;
-	height: 400px;
 }
 
 .vegas {
@@ -376,6 +376,16 @@ input[type=submit] {
 .picks-talk {
 	color: #fff;
 	text-align: left;
+	text-indent: 50px;
+	padding: 0 15% 0 5%;
+}
+
+/*******************************
+   BALLPARK PAGE
+*******************************/
+
+.construction {
+	text-align: center;
 }
 
 /*******************************
@@ -396,6 +406,7 @@ input[type=submit] {
 	background: #778899;
 	border: 1px solid black;
 	margin: 3px 0;
+	padding: 0 5px;
 }
 
 .chatchat2 {
@@ -493,34 +504,6 @@ textarea {
    IMAGES
 *******************************/
 
-#lines {
-	float: left;
-	margin: 0 auto;
-	height: 200px;
-	width: 24.5%;
-}
-
-#ball {
-	float: right;
-	margin: 0 auto;
-	height: 200px;
-	width: 25%;
-}
-
-#vegas {
-	float: left;
-  margin-top: -25px;
-	padding: 0;
-	height: 200px;
-	width: 24.5%;
-}
-
-#march {
-	float: right;
-	margin-top: -25px;
-	height: 200px;
-	width: 25%;
-}
 
 /*******************************
    FOOTER
@@ -531,7 +514,6 @@ footer {
 	text-align: center;
 	clear: both;
 	margin-top: 50px;
-
 }
 
 .social-icon {
@@ -570,31 +552,6 @@ footer {
 	}
 }
 
-@media (max-width: 2000px) {
-	.home-intro {
-		height: 1300px;
-	}
-}
-
-@media (max-width: 1500px) {
-	
-	.home-intro {
-		height: 1300px;
-	}
-}
-
-@media (max-width: 1000px) {
-	
-	.home-intro {
-		height: 1250px;
-	}
-	
-}
-@media (max-width: 900px) {
-	.home-intro {
-		height: 1300px;
-	}
-}
 @media (max-width: 800px) {
 	
 	input {
@@ -616,12 +573,6 @@ footer {
 	}
 }
 
-@media (max-width: 750px) {
-	.home-intro {
-		height: 1350px;
-	}
-}
-
 @media (max-width: 650px) {
 	
 	body {
@@ -636,10 +587,6 @@ footer {
 		margin-top: 150px;
 	}
 
-	.fantasy {
-		background-size: 100% 300px;
-	}
-	
 	#loginbut {
 		font-size: 0.6em;
 		padding: 2px 8px;
@@ -678,6 +625,10 @@ footer {
 		width: 60%;
 		height: 160px;
 	}
+
+	.home-body {
+		text-indent: 20px;
+	}
 	
 	#container {
 		width: 70%;
@@ -685,48 +636,11 @@ footer {
 
 	#chatwindow {
 		width: 70%;
-		height: 240px;
-	}
-
-	.home-intro {
-		height: 800px;
-	}
-
-	.osu-pic {
-		height: 200px;
-	}
-
-	.ttun-pic {
-		height: 200px;
-	}
-
-	.picks-intro {
-		height: 850px;
 	}
 
 	textarea {
 		width: 90%;
 		height: 50px;
 	}
-	
-	#lines {
-		display: none;
-	}
-	
-	#ball {
-		display: none;
-	}
-	 
-	#vegas {
-		display: none;
-	}
-	
-	#march {
-		display: none;
-	}
-}
-@media (max-width: 550px) {
-	.home-intro {
-		height: 1000px;
-	}
+
 }

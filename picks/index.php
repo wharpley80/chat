@@ -47,23 +47,36 @@ include(ROOT_PATH . 'inc/header.php');
 				<h3 class="season-nfl">2015 NFL</h3>
 			</div>
 			<div class="record-intro">
-				<h4 class="record-cfb">26-21-2</h4>
-				<h4 class="record-nfl">15-4-1</h4>
+				<h4 class="record-cfb">52-36-2</h4>
+				<h4 class="record-nfl">27-19-1</h4>
 		  </div> 
 		  <img src="../img/vegas.jpg" class="picks-pic">
 		  <div class="picks-weekly">
-		  	<h3 class="my-picks">Michingan State +8</h3>
-		  	<p class="picks-talk">No doubt that Michigan has impressed so far, but I believe that public opinion is ridding the Harbaugh train too hard here.
-		  		Michigan may pull out the win here, but in a rivalry game where Sparty has dominated of late. I'm taking the underdog and the points.</p>
-		   <h3 class="my-picks">Florida +9.5</h3>
-		   <p class="picks-talk">I know Grier is not playing for the Gators anymore this season, but this pick is based on Florida's defense. LSU has not gone 
-		   	up against a front 7 like this all season. Fournette will get his, but it won't come as easy. This will put more pressure on the quarterback position
-		   	of LSU. I like LSU to get the win here, but I see this as being a low scoring close game.</p>
-		   <h3 class="my-picks">Clemson -15.5</h3>
-		   <p class="picks-talk">BC has a strong defense, but they just got shutout @ home by Wake Forest!!! That is all the info I need. Clemson plays tough D 
-		   	too and a night game @ Death Valley is a difficult situation for anyone. Too much talent on Clemson's side with BC's inability to score puts me on the 
-		   	side of the home favorite here.</p>
+		  	<h3 class="my-picks">New Orleans +4.5</h3> 
+		  	<p class="picks-talk">These are 2 teams that have elite QBs and neither can play pass defense. New Orleans has been playing respectable 
+		  		as of late. Colts are missing Mike Adams in the secondary, so I think this frees up enough holes in the secondary for Brees to keep 
+		  		it close.
+		  	</p>
+		   <h3 class="my-picks">Houston +4.5</h3>
+		    <p class="picks-talk">The coaching change brought some life to Miami, but the QB switch to Brian Hoyer has elevated the Texans as well.
+		    	JJ Watt will cause havok in the backfield and Miami will have a hard time containing Hopkins. So give me the points and the Texans.
+		   	</p>
+		   <h3 class="my-picks">Jets +8</h3>
+		     <p class="picks-talk">Jets have the #2 pass defense and #2 Rush defense. NE has the #14 rush defesne, so I think this will allow Chis Ivory
+		     	to help move the chains and keep Brady on the sideline. NE should get the W here, but I like the Jets to keep it close.
+		     </p>
+		    <h3 class="my-picks">Giants -3.5</h3>
+		     <p class="picks-talk">It's a good Eli year... and I know the Giants looked horrible on MNF. I just think the Giants get back on track
+		     	and take advantage of a below average Cowboys pass defense. The Giants also defend the run good, which will put the pressure on Matt Cassel.
+		     	Home division game for the Giants, so I like them to cover considering.
+		     </p>
+		    <h3 class="my-picks">Carolina -3</h3>
+		     	<p class="picks-talk">
+		     </p>
 		  </div>
+		  <h2 class="picks-title">Recap of Sataurday in CFB</h2>
+		   <p class="picks-talk">1-2 in my Featured Picks, and 5-3 Overall
+		   </p>
 		</div>
 		<div class="vegas">
 			<div id="container">

@@ -26,26 +26,9 @@ include(ROOT_PATH . 'inc/header.php');
 		
 		<h1>Billy's Sports Chat</h1>
 	</header>
-	<!--
-  <div id="shoe">
-		
-			<div id="chatwindow">
-		  <div id="messages3"></div>
-			</div>
-			
-		<div id="container">
-			<form id="chatpost">
-
-				<label for="chatmessage">Chat Message:</label><br/>
-				<textarea name="chatmessage" id="chatmessage3"></textarea><br/>
-				<input type="submit" name="submit" id="sendmssg3" value="Send">
-			
-			</form>	
-  	</div>
+	<div class="construction">
+		<h3> Under Construction. Coming Soon...</h3>
 	</div>
--->
-
-
 <?php
 include(ROOT_PATH . 'inc/footer.php')
 ?>
