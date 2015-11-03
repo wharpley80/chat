@@ -41,29 +41,44 @@ include(ROOT_PATH . 'inc/header.php');
 		<h2>General Chat</h2>
 	</header>
 	 	<div class="home-intro">
-			<h2 class="home-title">The Punt</h2>
-				<img src="../img/img25343687.jpg" class="sparty-pic">
-				<p class="home-body">As much as I LOVE watching Michigan lose. After 10 years of them being irrelevant, then it just starts  
-					getting ridiculous. I'm not an idiot. I know that UM being competative is good for CFB, its good for the B1G, which in turn 
-					is good for my Buckeyes. And Harbaugh in year 1 has UM competative and way ahead of schedule. Many games don't live up to the
-					hype, but that was not the case here. Now State has been the most physical team in CFB over the past few years, so I was suprised
-					to see that Michigan was by far the more physical team in the first half. As the second half progressed then Sparty started winning
-					the battle in the trenches. This began to expose Michigan's weakness at the quarterback position and Connor Cook was the X factor. 
-					On State's final offensive drive UM came up with a clutch defensive stop forcing a turnover on downs. State forced UM to a 3 and
-					out and a punt which would probably be the final play...
+			<h2 class="home-title">Is Miami Still a Top Job??</h2>
+				<img src="../img/Golden_exasperated_face.0.jpg" class="golden-pic">
+				<p class="home-body">I guess this really depends on who you are. If you're one of the 20,000 die hard Miami fans then
+					I'm sure you'll say yes. They can make some valid points in their favor. South Florida is talent rich and that's a fact, so I'm 
+					not even going to try and argue against that. Miami has been irrelevant since basically 03 or 04, but that hasn't stopped them
+					from continuing to produce NFL talent. Now I think they're going to lose more recruits than they get. This has been happening and
+					it's going to continue to happen. Let's just be realistic here, unless a recruit grew up a Hurricane fan, wants to stay close to
+					home, or REALLY likes Miami's coach... then he will go elsewhere. That being said, I still think there is enough talent that they 
+					could compete for and actually win an ACC title. Something that they have yet to do since joining the ACC in 2004. 
+        </p>
+        <p class="home-body">
+					Now to answer the question... NO Miami is nowhere near a top job. The athletic department is broke and they will not spend money 
+					on a head coach. College coaches know that it is very very hard to keep 18-22 year old college athletes out of trouble. Now you
+					place those kids in Coral Gables, which is 12.6 miles from South Beach and you have a real problem. These are distractions that 
+					good coaches don't want. Then there is the stadium issue... Sun Life stadium is 17 miles from the campus to begin with and there 
+					is a whole list of reasons why they can't fill their stadium, but all that matters is that they can't fill their stadium. This means
+					that there is relatively no home field advantage of playing a home game. The one advantage that they do have is the humidity, and 
+					don't kid yourself that plays a large roll. This is why at one time when they played at the Orange Bowl the Hurricanes held one of the
+					biggest home field advantages in the nation. Miami doesn't need a huge 100,000 capacity stadium because they don't have the undergraduate
+					enrollment to fill it. They are a private school, but if they had 40-50,000 capacity stadium near campus then this would help immensely
+					with recruiting and actual building an atmosphere that could generate a home field advantage.
 				</p>
-				<p class="home-body">The snap from the long snapper appeared to be right on the money, but the punter just straight up bobbled
-					and dropped it. This was bad enough, but it gets worse. Instead of simply falling on the ball, which would have left State with 
-					one last chance to throw a Hail Mary. The punter overwhelmed with the moment tried to pick the ball up and still get the punt off. 
-					Unfortunate for him there were several defensive players swarming him, which led to him throwing the ball further backwards. 
-					At this point Jalen Watts-Jackson scooped up the ball and followed an envoy of blockers 38 yards to the end zone. The UM 
-					fans/players had their hearts ripped out and the State fans/players were so overtaken by emotions that they looked more confused 
-					than the losing side. In 30 plus years of watching football this was probably the most jaw dropping ending to a game that I can 
-					ever remember. Leaving this as a game that will be talked about FOREVER, and with Sparty winning 7 of 8 in the inner state rivalry.
-					They hold the title of Big Brother... until proven otherwise. On a side note the hero of the game Watts-Jackson, was injured during 
-					the celebration and fractured his hip thus ending his season. 
+				<p class="home-body">So since there is no plans that I know of to build Miami a stadium then I'll move onto the next issue. Unrealistic
+					expectations... Miami fans like Nebraska fans are stuck in the glory days. If you come to Miami you're basically expected to win a 
+					National Title, and if you don't then you'll be considered a failure. So you take a job where there is no commitment from the University,
+					the city is not ALL IN like it is at every other major program, and then you have all these great former players that slam you in the media
+					because they expect you to win despite all the oblivious disadvantages you are facing. So basically if you are a good coach and you have options,
+					then you aren't taking this job. So who would want this job?? Despite all these disadvantages I've brought up. I'll go back to what I started with
+					, which is talent. The is enough talent even with most of it being cherry picked away to actually win. So if you are an hot assistant looking
+					for his first HC job or a successful coach at a smaller program then this could be an attractive job. Only problem for Miami is that if they 
+					land one of these hot up and coming coaches who actually utilizes the talent available. Once he has success then he is probably gone because of
+					what we've already established...  Miami IS NOT A TOP JOB!!! So to wrap this up the best scenario for the Hurricanes is to hire a former
+					player like a Ed Reed or a Ray Lewis. These guys are football geniuses, which would drawl recruits, and would be a popular hire with all
+					the other former players and fanbase. Only problem with this is that neither of these 2 have any coaching experience that I know of. In retrospect
+					could it go any worse than it's been going for the last 10 years????
 				</p>
-			<h2 class="home-title">To Flip or Not To Flip???</h2>
+				<!--
+			<h2 class="home-title">ToFlip or Not To Flip???</h2>
 				<img src="../img/96802665_display_image.jpg" class="flip-pic">
 		    <p class="home-body">
 		    	With bat flips being such a headline in sports the last month I found myself with mixed emotions. I truely love Baseball 
@@ -80,6 +95,7 @@ include(ROOT_PATH . 'inc/header.php');
 		    		flipping or home run trot, just Rickey being Rickey. I close with the fact that Baseball has gone from being America's Pasttime 
 		    		to America's after thought and if fans want to see a bat flip... which they do. Then flip the damn thing!!!!
 		    </p>
+		  -->
 		</div>
   <div class="shoe">	
 		<?php if (!empty($_SESSION['login'])) { ?>

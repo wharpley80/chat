@@ -1,12 +1,7 @@
 body, html {
-	  background: #778899;
-		height: 100%;
-    margin: 0px auto;
-}
-
-body.picks {
+  background: #778899;
 	height: 100%;
-	margin: 0px auto;
+  margin: 0px auto;
 }
 
 body.ballpark {
@@ -206,12 +201,9 @@ input[type=submit] {
 	text-decoration: underline;
 }
 
-.sparty-pic {
-	border: 10px solid #778899;
-	border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.golden-pic {
+	border: 3px solid #778899;
+
 	width: 60%;
 }
 
@@ -227,7 +219,6 @@ input[type=submit] {
   border-top-right-radius: 10px;
 	width: 40%;
 }
-
 
 .home-body {
 	color: #fff;
@@ -274,19 +265,11 @@ input[type=submit] {
 }
 .lion-pic {
 	border: 3px solid #778899;
-	border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 	width: 60%;
 }
 
 .injury-pic {
 	border: 3px solid #778899;
-	border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 	width: 60%;
 }
 
@@ -346,10 +329,6 @@ input[type=submit] {
 
 .picks-pic {
 	border: 3px solid #778899;
-	border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 	width: 60%;
 }
 
@@ -364,20 +343,17 @@ input[type=submit] {
 	padding: 10px 0 20px 0;
 }
 
-.picksweekly {
-	padding: 20px 10px;
-
-}
-
-.my-picks {
-	text-align: left;
+.picks-weekly {
+	text-align: center;
+	width: 50%;
+	margin-left:  auto;
+	margin-right: auto;
 }
 
 .picks-talk {
 	color: #fff;
 	text-align: left;
-	text-indent: 50px;
-	padding: 0 15% 0 5%;
+	text-indent: 30px;
 }
 
 /*******************************
