@@ -34,13 +34,16 @@ h2 {
 }
 
 h3 {
+	font-family: 'Special Elite', arial;
 	color: #00ff00;
 	text-decoration: underline;
 }
 
 p {
+	font-family: 'Helvetica', arial, sans-serif;
 	text-align: center;
 	font-size: 1em;
+	line-height: 1.6em;
 }
 
 label {
@@ -252,7 +255,7 @@ input[type=submit] {
 *******************************/
 
 .fantasy-intro {
-	background-color: #000;
+	background-color: #778899;
 	width: 100%;
   margin: auto;
 	padding: 20px 10px;
@@ -260,17 +263,17 @@ input[type=submit] {
 }
 
 .fantasy-title {
-	color: #fff;
+	color: #000;
 	text-decoration: underline;
 }
-.lion-pic {
-	border: 3px solid #778899;
-	width: 60%;
-}
 
-.injury-pic {
-	border: 3px solid #778899;
-	width: 60%;
+.fantasy-body {
+	width: 50%;
+  color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	text-indent: 20px;
 }
 
 .fantasy {
@@ -343,17 +346,49 @@ input[type=submit] {
 	padding: 10px 0 20px 0;
 }
 
+.vault {
+	border-left: 2px solid #000;
+	float: right;
+	margin: 3em 4em 0 0;
+}
+
+.old-picks {
+	margin: 5px 5px;
+	padding: 0 5px 5px 5px;
+}
+
+a.past-weeks {
+	color: #000;
+	font-family: 'Helvetica', arial, sans-serif;
+	font-size: .75em;
+}
+
+a.past-weeks:hover {
+	color: #ff2400;
+}
+
+a#selected-week {
+	color: #fff;
+}
+
 .picks-weekly {
 	text-align: center;
 	width: 50%;
 	margin-left:  auto;
 	margin-right: auto;
+	margin-top: 3em;
 }
 
 .picks-talk {
 	color: #fff;
 	text-align: left;
 	text-indent: 30px;
+	margin-bottom: 3em;
+}
+
+.picks-recap {
+	color: #000;
+	text-decoration: underline;
 }
 
 /*******************************
@@ -583,12 +618,20 @@ footer {
 	}
 
 	h2{
-		font-size: 0.75em;
+		font-size: 1em;
 	}
 
 	nav a {
 		font-size: .75em;
 	}
+
+	.vault {
+		margin: 3em 1em 0 0;
+	}
+
+	a.past-weeks {
+  	font-size: 0.75em;
+  }
 	
 	.signin-page {
 		margin-left: 20%;

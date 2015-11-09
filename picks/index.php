@@ -47,42 +47,52 @@ include(ROOT_PATH . 'inc/header.php');
 				<h3 class="season-nfl">2015 NFL</h3>
 			</div>
 			<div class="record-intro">
-				<h4 class="record-cfb">61-43-2</h4>
-				<h4 class="record-nfl">26-14</h4>
+				<h4 class="record-cfb">67-56-2</h4>
+				<h4 class="record-nfl">29-15</h4>
 		  </div> 
 		  <img src="../img/vegas.jpg" class="picks-pic">
 		</div>
-
-		  <div class="picks-weekly">
-		  	<h3 class="my-picks">Rams -9</h3> 
-		  	<p class="picks-talk">I'm a Niners fan, and we are horrible. Only thing we have going for us is Carlos Hyde... and he's out. STL has
-		  		one of the best front 7s in football. This means the niners would have a hard time running the ball with Hyde, so without Hyde they
-		  		will be 1 dimensional. That 1 dimension is Kaepernick, and with no running threat he is a horrible pocket passer. Boldin is QUEST 
-		  		with a hamstring, so that won't help him out. SF is 20th in rush defense, so Gurley should have a big day and the Niners really have
-		  		been playing uncompetative ball away from home. So Rams should ROLL!!
-		  	</p>
-		    <h3 class="my-picks">Bengals pick</h3>
-        	<p class="picks-talk">If this was Ben's second game back then I would probably like the Steelers here. They have won the last 4/6 meetings
-        		between the 2, but because I don't know how effective Ben will be and since Cincy is playing so well then I'm taking the Bengals in a
-        		pick em.
-		      </p>
-		   <h3 class="my-picks">Bucs +7.5</h3>
-		    <p class="picks-talk">I hate Jameis Winston, so let me just get that out there. I think he is a right handed Byron Leftwich. Meaning he can
-		    	make all the throws when he has time. When you get pressure on him then he is a hot mess because he is about as agile as a baby giraffe in
-		    	the pocket. So why do I like the Bucs??? ATL is last in the league in sacks, and 25th overall in pass defense. Under these cicumstances I
-		    	think Winston can make plays in the passing game. Doug Martin is running the ball effectively and even though ATL has a top run defense I
-		    	just see the Bucs scoring some points here. Bucs also play pretty good pass defense, so I think they can keep Matt Ryan in check. Give me
-		    	the Bucs to lose by 7 and cover by .5.
-		   	</p>
-		   <h3 class="my-picks">Broncos +3.5</h3>
-		    <p class="picks-talk">I thought I was mistaken when I saw that the undefeated Broncos were home dogs here. #1 pass defense, #4 run defense, 
-		    	at home with Peyton Manning. I think this will be a great game and GB could very well win this, but all considered I'll take Manning at
-		    	home with the points and that defense. 
-		    </p>
-		  <h2 class="picks-title">Recap of yesterday in CFB</h2>
-		   <p class="picks-talk">7-5 yesterday. Was off to a 5-2 start going into the nightcap. Then went 1-3, but grabbed Wazzu +11 late to salvage the day.
-		   </p>
-		 </div>
+		<div class="vault">
+			<div class="old-picks">
+				<a href="<?php echo BASE_URL; ?>picks/index.php" class="past-weeks" id="selected-week">HOME</a>
+		  </div>
+			<div class="old-picks">
+				<a href="<?php echo BASE_URL; ?>picks/week10_cfb.php#week10" class="past-weeks">WEEK 10 CFB</a>
+		  </div>
+		</div>
+		<a name="home"></a>
+	  <div class="picks-weekly">
+     <h2 class="picks-recap">NFL WEEK 9</h2>
+	   <p class="picks-talk">Trying to recover from the whoopin that I took on Upset Sataurday. I'm just glad to see NFL!
+	   </p>
+	   <h3 class="my-picks">Jacksonville +8</h3> 
+	  	<p class="picks-talk">Blake Bortles has played very well this year and has 2 young talented recievers that are helping him out big time.
+	  		They are coming off of their bye week so they should be ready for the Jets. Brandon Marshall is gonna go, but is pretty banged up and should't 
+	  		be super effective. Jets should win the game behind their rushing attack and defense, but I think the Jags can score enough to make this 
+	  		a close 1 score game and cover.
+	  	</p>
+	   <h3 class="my-picks">New Orleans -7.5</h3> 
+	  	<p class="picks-talk">The Saints defense is pretty bad, but Drew Brees and the offense are firing on all cylinders. Tennessee has the #3 pass
+	  		defense, but this is an animal unlike any that they've seen all year. Mariota is back and that will help the Titans, but the young rookie is not 
+	  		ready to keep up with Drew Brees in the Superdome. I'm taking the Saints here to win by 2 scores.
+	  	</p>
+	  	<h3 class="my-picks">Pittsburgh -5</h3> 
+	  	<p class="picks-talk">This is the old west coast team traveling east game. Pittsburgh is 6th in the NFL with 22 sacks, so I think they
+	  		can get to the young QB and give him some problems. I really like what the Raiders have been doing this year, but I just feel that this
+	  		is a tough matchup for the young team. I see a big day for Big Ben and Antonio Brown and the home favorites win by a TD.
+	  	</p>
+	  	<h3 class="my-picks">Atlanta -7</h3> 
+	  	<p class="picks-talk">Although Kaepernick needed to be benched this is not really an upgrade with Blaine Gabbert at QB. Niners are really banged 
+	  		up and will be without Carlos Hyde, Reggie Bush, and probably Anquan Boldin. Then you matchup Julio Jones against a secondary that has given up 
+	  		big play after big play all season and you have a long day for the home Niners.
+	  	</p>
+	  	<h3 class="my-picks">Denver -5</h3> 
+	  	<p class="picks-talk">Andrew Luck finally caught fire late Monday Night and looked like the QB that we're used to. At the same time so did Peyton
+	  		Manning last Sunday Night. This Broncos team is just executing in all phases of the game right now, and Peyton going back to Indy is just a little 
+	  		extra motivation for Manning. This isn't an even matchup as Indy can't protect Luck and Denver has the best pass rush in the game. Give me Denver 
+	  		to win by a few scores and cover.
+	  	</p>
+	 </div>
 		<div class="vegas">
 			<div id="container">
 				<?php if ($_SESSION['login'] != '') { ?>
