@@ -99,48 +99,48 @@ nav li {
 	padding: 0;
 }
 
-.signin {
-	display: inline-block;
+.box {
 	float: right;
+	width: 160px;
+	height: 50px;
+	font-size: 12px;
 	margin: 0;
-	padding: 0 10px;
+}
+
+.login {
+	margin: 0;
+	padding: 0 ;
 }
 
 .logout {
-	display: inline-block;
-	float: right;
 	margin: 0;
-	padding: 0 10px;
 }
 
 #loginbut {
-  width: 140px;
-  height: 15px;
+  width: 100px;
+  height: 34px;
   background: #000;
-  padding: 8px 20px;
+  padding: 7px 5px;
   text-align: center;
   color: #fff;
-  font-weight: bold;
 }
 
 #signupbut {
-	width: 140px;
-  height: 15px;
+	width: 100px;
+  height: 34px;
   background: #778899;
-  padding: 8px 20px;
+  padding: 7px 5px;
   text-align: center;
   color: #fff;
-  font-weight: bold;
 }
 
 #logoutbut {
   width: 140px;
   height: 15px;
   background: #000;
-  padding: 8px 15px;
+  padding: 7px 5px;
   text-align: center;
   color: #fff;
-  font-weight: bold;
 }
 
 /*******************************
@@ -192,7 +192,7 @@ input[type=submit] {
 }
 
 .home-intro {
-	background-color: #000;
+	background-color: #778899;
 	width: 100%;
   margin: auto;
 	padding: 20px 0;
@@ -200,14 +200,24 @@ input[type=submit] {
 }
 
 .home-title {
-	color: #fff;
+	color: #000;
 	text-decoration: underline;
+}
+
+.vault {
+	border-left: 2px solid #000;
+	float: right;
+	margin: 3em 4em 0 0;
+}
+
+.old-articles {
+	margin: 5px 5px;
+	padding: 0 5px 5px 5px;
 }
 
 .golden-pic {
 	border: 3px solid #778899;
-
-	width: 60%;
+	width: 40%;
 }
 
 .flip {
@@ -215,19 +225,15 @@ input[type=submit] {
 }
 
 .flip-pic {
-	border: 10px solid #778899;
-	border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-	width: 40%;
+	border: 3px solid #778899;
+	width: 25%;
 }
 
 .home-body {
 	color: #fff;
 	text-indent: 40px;
 	text-align: left;
-	padding: 0 15%;
+	padding: 0 20%;
 }
 
 .ttun-pic {
@@ -346,7 +352,7 @@ input[type=submit] {
 	padding: 10px 0 20px 0;
 }
 
-.vault {
+.vault-picks {
 	border-left: 2px solid #000;
 	float: right;
 	margin: 3em 4em 0 0;
@@ -515,7 +521,9 @@ textarea {
    IMAGES
 *******************************/
 
-
+.sec-pic {
+	width: 40%;
+}
 /*******************************
    FOOTER
 *******************************/
@@ -598,6 +606,23 @@ footer {
 		margin-top: 150px;
 	}
 
+	h1 { 
+		font-size: 1em; 
+	}
+
+	h2{
+		font-size: 1em;
+	}
+
+	nav a {
+		font-size: .75em;
+	}
+
+	.box {
+		font-size: 10px;
+		width: 120px;
+	}
+
 	#loginbut {
 		font-size: 0.6em;
 		padding: 2px 8px;
@@ -611,18 +636,6 @@ footer {
 	#logoutbut {
 		margin: 10px 0 0 0;
 		padding: 3px 10px;
-	}
-
-	h1 { 
-		font-size: 1em; 
-	}
-
-	h2{
-		font-size: 1em;
-	}
-
-	nav a {
-		font-size: .75em;
 	}
 
 	.vault {

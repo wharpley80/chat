@@ -22,19 +22,16 @@ include(ROOT_PATH . 'inc/header.php');
 				<li class="selected">
 					<a href="<?php echo BASE_URL; ?>picks/">Picks & Odds</a>
 				</li>
-				<li>
-					<a href="<?php echo BASE_URL; ?>ballpark/">BallPark Trips</a>
-				</li>
 		  </ul>
 		</nav>
 		<?php if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) { ?>
-		<nav class="signin">
-			<a href="../signin" id="loginbut">SignIn</a>
-			<a href="../signup" id="signupbut">SignUp</a>
+		<nav class="login">
+			<a href="../signin" id="loginbut">LOGIN</a>
+			<a href="../signup" id="signupbut">CHAT NOW</a>
 		</nav>
 		<?php }	else { ?>
 		<nav class="logout">
-			<a href="../" id="logoutbut">Logout</a>
+			<a href="../" id="logoutbut">LOGOUT</a>
 		</nav>	
 		<?php } ?>		
 		<h1>Billy's Sports Chat</h1>
@@ -48,19 +45,19 @@ include(ROOT_PATH . 'inc/header.php');
 			</div>
 			<div class="record-intro">
 				<h4 class="record-cfb">67-56-2</h4>
-				<h4 class="record-nfl">29-15</h4>
+				<h4 class="record-nfl">23-19</h4>
 		  </div> 
 		  <img src="../img/vegas.jpg" class="picks-pic">
 		</div>
-		<div class="vault">
+		<div class="vault-picks">
 			<div class="old-picks">
-				<a href="<?php echo BASE_URL; ?>picks/index.php" class="past-weeks" id="selected-week">HOME</a>
+				<a href="<?php echo BASE_URL; ?>picks/index.php#home-picks" class="past-weeks" id="selected-week">HOME</a>
 		  </div>
 			<div class="old-picks">
 				<a href="<?php echo BASE_URL; ?>picks/week10_cfb.php#week10" class="past-weeks">WEEK 10 CFB</a>
 		  </div>
 		</div>
-		<a name="home"></a>
+		<a name="home-picks"></a>
 	  <div class="picks-weekly">
      <h2 class="picks-recap">NFL WEEK 9</h2>
 	   <p class="picks-talk">Trying to recover from the whoopin that I took on Upset Sataurday. I'm just glad to see NFL!

@@ -66,14 +66,19 @@ include(ROOT_PATH . 'inc/header.php');
 	<header>
 		<nav class="page-links">
 			<ul>
-				<li><a href="<?php echo BASE_URL; ?>home/">Home</a></li>
-				<li><a href="<?php echo BASE_URL; ?>fantasy/">Fantasy</a></li>
-				<li><a href="<?php echo BASE_URL; ?>picks/">Picks & Odds</a></li>
-				<li><a href="<?php echo BASE_URL; ?>ballpark/">BallPark Trips</a></li>
+				<li>
+					<a href="<?php echo BASE_URL; ?>home/">Home</a>
+				</li>
+				<li>
+					<a href="<?php echo BASE_URL; ?>fantasy/">Fantasy</a>
+				</li>
+				<li>
+					<a href="<?php echo BASE_URL; ?>picks/">Picks & Odds</a>
+				</li>
 		  </ul>
 		</nav>
-		<nav class="signin">
-		 <a href="../signup" id="signupbut">SignUp</a>
+		<nav class="login">
+		 <a href="../signup" id="signupbut">CHAT NOW</a>
 		</nav>
 		<h1>Billy's Sports Chat</h1>
 		<p>SignIn to Start Chatting</p>
