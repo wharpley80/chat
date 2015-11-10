@@ -99,7 +99,7 @@ nav li {
 	padding: 0;
 }
 
-.box {
+.sign-box {
 	float: right;
 	width: 160px;
 	height: 50px;
@@ -618,7 +618,7 @@ footer {
 		font-size: .75em;
 	}
 
-	.box {
+	.sign-box {
 		font-size: 10px;
 		width: 120px;
 	}
@@ -647,7 +647,8 @@ footer {
   }
 	
 	.signin-page {
-		margin-left: 20%;
+		margin-left: auto;
+		margin-right: auto;
 		width: 60%;
 		height: 140px;
 	}

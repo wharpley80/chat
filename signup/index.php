@@ -44,7 +44,29 @@ if (isset($_POST['new-chatname'])) {
 			exit;
 		}
 
-		header("Location: ../signin");
+	  // Grabs chatname ID.
+    function chat_id($new_chatname) {
+	    require(ROOT_PATH . 'inc/database.php');
+	  
+	    try {
+	      $ids = $db->prepare('SELECT id FROM user_pass WHERE chatname = ?');
+	      $ids->bindValue(1,$new_chatname);
+	      $ids->execute();
+	      foreach ($ids as $id) {
+	        $chatID = $id['id'];
+	        return $chatID;
+	      }
+	    } catch (Exception $e) {
+	      echo "Data was not retrieved from the database successfully 26.";
+	      exit;
+	    }
+	  } 
+
+	  $newchat_id = chat_id($new_chatname);
+		$_SESSION['login'] = "1";
+		$_SESSION['chat-id'] = $newchat_id;
+		$_SESSION['chatname'] = $new_chatname;
+		header("Location: ../home/index.php");
 		
 		}
   } 
@@ -53,27 +75,7 @@ if (isset($_POST['new-chatname'])) {
 include(ROOT_PATH . 'inc/header.php');
 
 ?>
-
-<body>
-	<header>
-		<nav class="page-links">
-			<ul>
-				<li>
-					<a href="<?php echo BASE_URL; ?>home/">Home</a>
-				</li>
-				<li>
-					<a href="<?php echo BASE_URL; ?>fantasy/">Fantasy</a>
-				</li>
-				<li>
-					<a href="<?php echo BASE_URL; ?>picks/">Picks & Odds</a>
-				</li>
-		  </ul>
-		</nav>
-		<nav class="login">
-		 <a href="../signin" id="loginbut">LOGIN</a>
-		</nav>
-		<h1>Billy's Sports Chat</h1>
-		<p>Sign Up to Start Chatting</p>
+		<h2>Sign Up to Start Chatting</h2>
 	</header>
 	<div class="shoe">
 		<div class="signup-page">

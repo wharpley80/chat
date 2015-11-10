@@ -4,37 +4,13 @@ session_start();
 require_once('../inc/config.php');
 require_once(ROOT_PATH . 'inc/database.php');
 
+$thisPage = "picks";
+/*
 $chat_id = $_SESSION['chat-id'];
 $chatname = $_SESSION['chatname'];
-
+*/
 include(ROOT_PATH . 'inc/header.php');
 ?>
-<body class="picks">
-	<header>
-		<nav class="page-links">
-			<ul>
-				<li>
-					<a href="<?php echo BASE_URL; ?>home/">Home</a>
-				</li>
-				<li>
-					<a href="<?php echo BASE_URL; ?>fantasy/">Fantasy</a>
-				</li>
-				<li class="selected">
-					<a href="<?php echo BASE_URL; ?>picks/">Picks & Odds</a>
-				</li>
-		  </ul>
-		</nav>
-		<?php if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) { ?>
-		<nav class="login">
-			<a href="../signin" id="loginbut">LOGIN</a>
-			<a href="../signup" id="signupbut">CHAT NOW</a>
-		</nav>
-		<?php }	else { ?>
-		<nav class="logout">
-			<a href="../" id="logoutbut">LOGOUT</a>
-		</nav>	
-		<?php } ?>		
-		<h1>Billy's Sports Chat</h1>
 		<h2>Game Picks & Odds Chat</h2>
 	</header>
 		<div class="picks-intro">

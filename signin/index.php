@@ -4,7 +4,6 @@ session_start();
 require_once('../inc/config.php');
 require_once(ROOT_PATH . 'inc/database.php');
 
-
 // Validates Chatname & Password
 if (isset($_POST['chatname']) && isset($_POST['password'])) {
 	$chatname = trim($_POST['chatname']);
@@ -53,35 +52,14 @@ if (isset($_POST['chatname']) && isset($_POST['password'])) {
 		$_SESSION['login'] = "1";
 		$_SESSION['chat-id'] = $chat_id;
 		$_SESSION['chatname'] = $chatname;
-		header("Location: ../home");
+		header("Location: ../home/index.php");
 	  exit();
 	} 
 }
 
-
-	
 include(ROOT_PATH . 'inc/header.php');
 ?>
-<body>
-	<header>
-		<nav class="page-links">
-			<ul>
-				<li>
-					<a href="<?php echo BASE_URL; ?>home/">Home</a>
-				</li>
-				<li>
-					<a href="<?php echo BASE_URL; ?>fantasy/">Fantasy</a>
-				</li>
-				<li>
-					<a href="<?php echo BASE_URL; ?>picks/">Picks & Odds</a>
-				</li>
-		  </ul>
-		</nav>
-		<nav class="login">
-		 <a href="../signup" id="signupbut">CHAT NOW</a>
-		</nav>
-		<h1>Billy's Sports Chat</h1>
-		<p>SignIn to Start Chatting</p>
+		<h2>SignIn to Start Chatting</h2>
 	</header>
 	<div class="shoe">
 		<div class="signin-page">
