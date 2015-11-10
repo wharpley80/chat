@@ -114,7 +114,6 @@ nav li {
 
 .logout {
 	margin: 0;
-	padding: 0;
 }
 
 #loginbut {
@@ -172,6 +171,10 @@ nav li {
 
 .box {
 	display: block;
+}
+
+.box input {
+
 }
 
 input[type=submit] {
@@ -575,7 +578,7 @@ footer {
 		width: 7em;
 		height: 1em;
 	}
-/*
+
 	#loginbut {
 		padding: 4px 10px;
 	}
@@ -583,7 +586,7 @@ footer {
 	#signupbut {
 		padding: 4px 10px;
 	}
-	*/
+	
 	input[type=submit] {
 	   height: 1.5em;
 	}
@@ -618,7 +621,6 @@ footer {
 	.sign-box {
 		font-size: 10px;
 		width: 120px;
-		height: 20px;
 	}
 
 	#loginbut {
@@ -637,7 +639,7 @@ footer {
 	}
 
 	.vault {
-		margin: 3em 0 0 0;
+		margin: 3em 1em 0 0;
 	}
 
 	a.past-weeks {

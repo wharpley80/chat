@@ -4,14 +4,11 @@ session_start();
 require_once('../inc/config.php');
 require_once(ROOT_PATH . 'inc/database.php');
 
-
 $chat_id = $_SESSION['chat-id'];
 $chatname = $_SESSION['chatname'];
-
 $thisPage = "home";
+
 include(ROOT_PATH . 'inc/header.php');
-
-
 ?>
 		<h2>General Chat</h2>
 	</header>
