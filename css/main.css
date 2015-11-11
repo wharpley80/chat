@@ -190,7 +190,7 @@ input[type=submit] {
 
 .home-intro {
 	background-color: #778899;
-	width: 100%;
+	width: 60%;
   margin: auto;
 	padding: 20px 0;
 	text-align: center;
@@ -202,6 +202,7 @@ input[type=submit] {
 }
 
 .vault {
+	max-width: 15%;
 	border-left: 2px solid #000;
 	float: right;
 	margin: 3em 4em 0 0;
@@ -212,25 +213,19 @@ input[type=submit] {
 	padding: 0 5px 5px 5px;
 }
 
-.golden-pic {
-	border: 3px solid #778899;
-	width: 40%;
+.img-link {
+	width: 100%;
 }
 
 .flip {
-		padding: 10px;
-}
-
-.flip-pic {
-	border: 3px solid #778899;
-	width: 25%;
+	padding: 10px;
 }
 
 .home-body {
 	color: #fff;
 	text-indent: 40px;
 	text-align: left;
-	padding: 0 20%;
+	padding: 0 5%;
 }
 
 .ttun-pic {
@@ -257,9 +252,15 @@ input[type=submit] {
    FANTASY PAGE
 *******************************/
 
+.vault-fantasy {
+	border-left: 2px solid #000;
+	float: right;
+	margin: 3em 4em 0 0;
+}
+
 .fantasy-intro {
 	background-color: #778899;
-	width: 100%;
+	width: 50%;
   margin: auto;
 	padding: 20px 10px;
 	text-align: center;
@@ -271,7 +272,6 @@ input[type=submit] {
 }
 
 .fantasy-body {
-	width: 50%;
   color: #fff;
 	margin-right: auto;
 	margin-left: auto;
@@ -518,8 +518,16 @@ textarea {
    IMAGES
 *******************************/
 
-.sec-pic {
+.flip-pic {
 	width: 40%;
+}
+
+.golden-pic {
+	width: 60%;
+}
+
+.sec-pic {
+	width: 60%;
 }
 /*******************************
    FOOTER

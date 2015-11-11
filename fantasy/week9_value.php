@@ -14,13 +14,13 @@ include(ROOT_PATH . 'inc/header.php');
 </header>
 <div class="vault-fantasy">
 	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>fantasy/index.php#home-fantasy" class="past-weeks" id="selected-week">HOME</a>
+		<a href="<?php echo BASE_URL; ?>fantasy/index.php#home-fantasy" class="past-weeks">HOME</a>
   </div>
 	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>fantasy/week9_value.php#week9-fantasy" class="past-weeks">WEEK 9 VALUES</a>
+		<a href="<?php echo BASE_URL; ?>fantasy/week9_value.php#week9-fantasy" class="past-weeks" id="selected-week">WEEK 9 VALUES</a>
   </div>
 </div>
-<a name="home-fantasy"></a>
+<a name="week9-fantasy"></a>
 <div class="fantasy-intro">
 	<h2 class="fantasy-title">Daily Fantasy Value Picks</h2>
 	<h3>Antonio Brown</h3>

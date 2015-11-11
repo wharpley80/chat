@@ -13,14 +13,18 @@ include(ROOT_PATH . 'inc/header.php');
 	<h2>General Chat</h2>
 </header>
 <div class="vault">
-	<div class="old-articles">
+	<div class="old-picks">
 		<a href="<?php echo BASE_URL; ?>home/index.php#home" class="past-weeks">HOME</a>
   </div>
-	<div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/um_job.php#goldon" class="past-weeks">Is Miami Still a Top Job??</a>
+	<div class="old-picks">
+		<a href="<?php echo BASE_URL; ?>home/um_job.php#goldon" class="past-weeks">
+			<img src="../img/Golden_exasperated_face.0.jpg" class="img-link">UM JOB
+		</a>
   </div>
-  <div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/bat_flip.php#flip" class="past-weeks" id="selected-week">To Flip or Not To Flip???</a>
+  <div class="old-picks">
+		<a href="<?php echo BASE_URL; ?>home/bat_flip.php#flip" class="past-weeks" id="selected-week">
+			<img src="../img/96802665_display_image.jpg" class="img-link">BAT FLIP
+		</a>
   </div>
 </div>
 <a name="flip"></a>

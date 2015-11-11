@@ -20,7 +20,7 @@ include(ROOT_PATH . 'inc/header.php');
 	</div>
 	<div class="record-intro">
 		<h4 class="record-cfb">67-56-2</h4>
-		<h4 class="record-nfl">23-19</h4>
+		<h4 class="record-nfl">30-19</h4>
   </div> 
   <img src="../img/vegas.jpg" class="picks-pic">
 </div>
