@@ -75,27 +75,27 @@ if (isset($_POST['new-chatname'])) {
 include(ROOT_PATH . 'inc/header.php');
 
 ?>
-		<h2>Sign Up to Start Chatting</h2>
-	</header>
-	<div class="shoe">
-		<div class="signup-page">
-	  	<p class="head">Sign Up</p>
-			<form method="POST" action="" class="signup-form">
-				<div class="box">
-					<input type="text" name="new-chatname" placeholder="Chat name">
-			  </div>
-				<div class="box">
-					<input type="password" id="password" name="password" placeholder="Password">
-				</div>
-				<div class="box">
-					<input type="password" id="password-confirmation" name="password-confirmation" placeholder="Password Confirm">
-				</div>
-				<div class="box">
-					<input type="submit" name="submit" value="submit">
-				</div>
-			</form>
-  	</div>
-  </div>
+	<h2>Sign Up to Start Chatting</h2>
+</header>
+<div class="shoe">
+	<div class="signup-page">
+  	<p class="head">Sign Up</p>
+		<form method="POST" action="" class="signup-form">
+			<div class="box">
+				<input type="text" name="new-chatname" placeholder="Chat name">
+		  </div>
+			<div class="box">
+				<input type="password" id="password" name="password" placeholder="Password">
+			</div>
+			<div class="box">
+				<input type="password" id="password-confirmation" name="password-confirmation" placeholder="Password Confirm">
+			</div>
+			<div class="box">
+				<input type="submit" name="submit" value="submit">
+			</div>
+		</form>
+	</div>
+</div>
 <?php
 include(ROOT_PATH . 'inc/footer.php');
 ?>

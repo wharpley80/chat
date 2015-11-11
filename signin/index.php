@@ -56,27 +56,26 @@ if (isset($_POST['chatname']) && isset($_POST['password'])) {
 	  exit();
 	} 
 }
-
 include(ROOT_PATH . 'inc/header.php');
 ?>
-		<h2>SignIn to Start Chatting</h2>
-	</header>
-	<div class="shoe">
-		<div class="signin-page">
-			<p class="head">Sign In</p>						
-			<form method="POST" action="" class="signin-form">
-				<div class="box">
-					<input type="text" name="chatname" class="validate" placeholder="Chatname">
-				</div>
-				<div class="box">
-					<input type="password" name="password" placeholder="Password">
-				</div>
-				<div class="box">
-					<input type="submit" name="submit" value="submit">
-				</div>
-			</form>
-  	</div>
-  </div>
+	<h2>SignIn to Start Chatting</h2>
+</header>
+<div class="shoe">
+	<div class="signin-page">
+		<p class="head">Sign In</p>						
+		<form method="POST" action="" class="signin-form">
+			<div class="box">
+				<input type="text" name="chatname" class="validate" placeholder="Chatname">
+			</div>
+			<div class="box">
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<div class="box">
+				<input type="submit" name="submit" value="submit">
+			</div>
+		</form>
+	</div>
+</div>
 <?php
 include(ROOT_PATH . 'inc/footer.php');
 ?>
