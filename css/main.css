@@ -51,6 +51,7 @@ label {
 }
 
 a {
+	font-family: 'Helvetica', arial, sans-serif;
 	color: #f2f2f2;
 }
 
@@ -202,18 +203,37 @@ input[type=submit] {
 }
 
 .vault {
+  font-size: .8em;
 	max-width: 15%;
 	border-left: 2px solid #000;
 	float: right;
-	margin: 3em 4em 0 0;
+	margin: 3em 0 0 0;
 }
 
+a.past-art {
+	font-family: 'Helvetica', arial, sans-serif;
+	font-size: .75em;
+	color: #000;
+}
+
+a.past-art:hover {
+	color: #00CC00;
+}
+
+a#selected-art {
+  color: #FF0000;
+}
+
+
 .old-articles {
+	background-color: #FAFAFA;
+	border: 1px solid #000;
 	margin: 5px 5px;
-	padding: 0 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
 }
 
 .img-link {
+	display: inline;
 	width: 100%;
 }
 
@@ -361,17 +381,17 @@ input[type=submit] {
 }
 
 a.past-weeks {
-	color: #000;
 	font-family: 'Helvetica', arial, sans-serif;
 	font-size: .75em;
+	color: #000;
 }
 
 a.past-weeks:hover {
-	color: #ff2400;
+	color: #fff;
 }
 
 a#selected-week {
-	color: #fff;
+  color: #00ff00;
 }
 
 .picks-weekly {
@@ -653,6 +673,7 @@ footer {
 	}
 
 	.vault {
+		font-size: 8px;
 		margin: 3em 0 0 0;
 	}
 

@@ -13,16 +13,18 @@ include(ROOT_PATH . 'inc/header.php');
 	<h2>General Chat</h2>
 </header>
 <div class="vault">
-	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>home/index.php#home" class="past-weeks" id="selected-week">HOME</a>
+	<div  class="old-articles">
+		<a href="<?php echo BASE_URL; ?>home/index.php#home" class="past-art" id="selected-art">
+			<img src="../img/alabama-lsu-630.jpg" class="img-link">HOME
+		</a>
   </div>
-	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>home/um_job.php#goldon" class="past-weeks">
+	<div class="old-articles">
+		<a href="<?php echo BASE_URL; ?>home/um_job.php#goldon" class="past-art">
 			<img src="../img/Golden_exasperated_face.0.jpg" class="img-link">UM JOB
 		</a>
   </div>
-  <div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>home/bat_flip.php#flip" class="past-weeks">
+  <div class="old-articles">
+		<a href="<?php echo BASE_URL; ?>home/bat_flip.php#flip" class="past-art">
 			<img src="../img/96802665_display_image.jpg" class="img-link">BAT FLIP
 		</a>
   </div>
