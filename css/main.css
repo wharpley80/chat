@@ -204,7 +204,7 @@ input[type=submit] {
 
 .vault {
   font-size: .8em;
-	max-width: 15%;
+	max-width: 17%;
 	border-left: 2px solid #000;
 	float: right;
 	margin: 3em 0 0 0;
@@ -228,8 +228,8 @@ a#selected-art {
 .old-articles {
 	background-color: #FAFAFA;
 	border: 1px solid #000;
-	margin: 5px 5px;
-	padding: 5px 5px 5px 5px;
+	margin: 1em .75em;
+	padding: 5px;
 }
 
 .img-link {
@@ -353,11 +353,6 @@ a#selected-art {
 	padding: 10px 0 20px 0;
 }
 
-.picks-pic {
-	border: 3px solid #778899;
-	width: 60%;
-}
-
 .vegas {
 	background: url('../img/california-nevada-sports-betting.jpg')
 		no-repeat;
@@ -372,7 +367,7 @@ a#selected-art {
 .vault-picks {
 	border-left: 2px solid #000;
 	float: right;
-	margin: 3em 4em 0 0;
+	margin: 6em 1em 0 0;
 }
 
 .old-picks {
@@ -539,16 +534,41 @@ textarea {
 *******************************/
 
 .flip-pic {
+	border: 1px solid #fff;
+	box-shadow: 0 10px 20px 0 #000;
 	width: 40%;
 }
 
 .golden-pic {
+	border: 1px solid #fff;
+	box-shadow: 0 10px 20px 0 #000;
 	width: 60%;
 }
 
 .sec-pic {
+	border: 1px solid #fff;
+	box-shadow: 0 10px 20px 0 #000;
 	width: 60%;
 }
+
+.league-pic {
+	border: 1px solid #fff;
+	box-shadow: 0 10px 20px 0 #000;
+	width: 70%;
+}
+
+.pitt-pic {
+	border: 1px solid #fff;
+	box-shadow: 0 10px 20px 0 #000;
+	width: 70%;
+}
+
+.picks-pic {
+	border: 1px solid #fff;
+	box-shadow: 0 10px 20px 0 #000;
+	width: 70%;
+}
+
 /*******************************
    FOOTER
 *******************************/

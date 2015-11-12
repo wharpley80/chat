@@ -22,19 +22,22 @@ include(ROOT_PATH . 'inc/header.php');
 		<h4 class="record-cfb">67-56-2</h4>
 		<h4 class="record-nfl">30-19</h4>
   </div> 
-  <img src="../img/vegas.jpg" class="picks-pic">
 </div>
-<div class="vault">
+<div class="vault-picks">
 	<div class="old-picks">
 		<a href="<?php echo BASE_URL; ?>picks/index.php#home-picks" class="past-weeks">HOME</a>
   </div>
 	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>picks/week10_cfb.php#week10" class="past-weeks" id="selected-week">WEEK 10 CFB</a>
+		<a href="<?php echo BASE_URL; ?>picks/week10_cfb.php#cfb10" class="past-weeks" id="selected-week">WEEK 10 CFB</a>
+  </div>
+  <div class="old-picks">
+		<a href="<?php echo BASE_URL; ?>picks/week9_nfl.php#nfl9" class="past-weeks">WEEK 9 NFL</a>
   </div>
 </div>
-<a name="week10"></a>
+<a name="cfb10"></a>
 <div class="picks-weekly">
  <h2 class="picks-recap">Upset Sataurday (3-10)</h2>
+ <img src="../img/vegas.jpg" class="picks-pic">
  <p class="picks-talk">Well this will go down as a day to FORGET!! This day started off bad and just go worse from there. I was heavy loaded with favorites
  	on this day and it turned out to be Upset Sataurday. Can't remember having a day this bad in a LONG time, but these days happen so nothing you can do. Just 
  	eat your piece of humble pie and move on to the next day. 

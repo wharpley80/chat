@@ -12,17 +12,22 @@ include(ROOT_PATH . 'inc/header.php');
 ?>
 	<h2>Fantasy Chat</h2>
 </header>
-<div class="vault-fantasy">
-	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>fantasy/index.php#home-fantasy" class="past-weeks">HOME</a>
+<div class="vault">
+	<div class="old-articles">
+		<a href="<?php echo BASE_URL; ?>fantasy/index.php#home-fantasy" class="past-art">
+			<img src="../img/theleague.jpg" class="img-link">HOME
+		</a>
   </div>
-	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>fantasy/week9_value.php#week9-fantasy" class="past-weeks" id="selected-week">WEEK 9 VALUES</a>
+	<div class="old-articles">
+		<a href="<?php echo BASE_URL; ?>fantasy/week9_value.php#week9-fantasy" class="past-art" id="selected-art">
+			<img src="../img/pittsburgh-steelers-wide-receiver-antonio-brown.jpg" class="img-link">WEEK 9 VALUES
+		</a>
   </div>
 </div>
 <a name="week9-fantasy"></a>
 <div class="fantasy-intro">
 	<h2 class="fantasy-title">Daily Fantasy Value Picks</h2>
+	<img src="../img/pittsburgh-steelers-wide-receiver-antonio-brown.jpg" class="pitt-pic">
 	<h3>Antonio Brown</h3>
 	<h4>$8,100 Draft Kings (49.6 Pts, .61 VPD)</h4>
 		<p class="fantasy-body">Just because his price is high doesn't mean he's not a good value. Ben's second game back, home 
@@ -68,14 +73,18 @@ include(ROOT_PATH . 'inc/header.php');
 		</P>
 	<h3>Jeremy Langford</h3>
 	<h4>$4,000 Draft Kings (25.2 Pts, .63 VPD)</h4>
-		<p class="fantasy-body">Langford is a very talented back out of Michigan State who will probably take over for Forte as the 
-			lead back in Chicago eventually. He does many things well including catching the ball out of the backfield. This is a good
-			matchup for him as the Chargers come in with the 27th rush defense and allow the 32nd most fantasy points to opposing RB. 
-			I think Langford can get over 100 total yards and hopefully get in the endzone. So there is good value here as he is pretty
-			cheap.
+		<p class="fantasy-body">Langford is a very talented back out of Michigan State who will probably take over for Forte as 
+			the lead back in Chicago eventually. He does many things well including catching the ball out of the backfield. This is a good matchup for him as the Chargers come in with the 27th rush defense and allow the 32nd most fantasy points to opposing RB. I think Langford can get over 100 total yards and hopefully get in the endzone. So there is good value here as he is pretty cheap.
 		</P>
+	<h2 class="fantasy-title">What is VPD??</h2>
+		<p class="fantasy-body">Value Per Dollar, this is just a ratio to evaluate how much production you get out of a player for
+			what you've spent for them. You obviously can't spend $8,000 on every player, so you're team is made up of different salary ranges right? So if you spend $8,000 on Julio Jones and he gets you 20 points. 20 points is a decent score for most players, but Julio's 20 points was only a .25 VPD ratio. To put it in perspective if you're team averages a VPD of .4, then your team scores 200 points which puts you in the money on all double ups and most tournaments. If your team averages a VPD of .35 then your team scores 175 points which will put you in the money in most double ups and some tournaments. 
+		</p>
+		<p class="fantasy-body">So why do I record VPD?? Well because it gives you a reference of how effective the players I pick 
+			are and if they are worth the price that you are spending. I could give you a list of players that are probably gonna snap every week, but if they all cost $7,500 then it does you no good. VPD is just a way of me trying to help you fill your roster with value, no matter what the cost.
+		</p>
 </div>
-<div class="fantasy">
+<div class="shoe">
 <?php	if ($_SESSION['login'] != '') { ?>
 	<div id="container">
 		<form id="chatpost">
