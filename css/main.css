@@ -227,6 +227,7 @@ a#selected-art {
 
 .old-articles {
 	background-color: #FAFAFA;
+	box-shadow: 10px 10px 10px #000;
 	border: 1px solid #000;
 	margin: 1em .75em;
 	padding: 5px;
@@ -261,8 +262,8 @@ a#selected-art {
 	background: url('../img/stadium-night-800x325.jpg') 
 		no-repeat;
 	background-size: 100% 510px;
-	border-top: 3px solid #ff2400;
-	border-bottom: 3px solid #ff2400;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
 	color: #f2f2f2;
 	padding: 10px 0 20px 0;
 	text-align: center;
@@ -299,26 +300,15 @@ a#selected-art {
 	text-indent: 20px;
 }
 
-.fantasy {
-	background: url('../img/theleague.jpg')
-		no-repeat;
-	background-size: 100% 510px;
-	border-top: 3px solid #ff2400;
-	border-bottom: 3px solid #ff2400;
-	text-align: center;
-	color: #f2f2f2;
-	padding: 10px 0 20px 0;
-}
-
 /*******************************
    PICKS&ODDS PAGE
 *******************************/
 
 .picks-intro {
-	background-color: #000;
+	background-color: #778899;
 	width: 100%;
   margin: auto;
-	padding: 20px 10px;
+	padding: 0 10px;
 	text-align: center;
 }
 
@@ -350,18 +340,7 @@ a#selected-art {
 }
 
 .record-intro {
-	padding: 10px 0 20px 0;
-}
-
-.vegas {
-	background: url('../img/california-nevada-sports-betting.jpg')
-		no-repeat;
-	background-size: 100% 510px;
-	border-top: 3px solid #ff2400;
-	border-bottom: 3px solid #ff2400;
-	text-align: center;
-	color: #f2f2f2;
-	padding: 10px 0 20px 0;
+	padding: 10px 0 0 0;
 }
 
 .vault-picks {
@@ -535,37 +514,37 @@ textarea {
 
 .flip-pic {
 	border: 1px solid #fff;
-	box-shadow: 0 10px 20px 0 #000;
+	box-shadow: 10px 10px 10px #000;
 	width: 40%;
 }
 
 .golden-pic {
 	border: 1px solid #fff;
-	box-shadow: 0 10px 20px 0 #000;
+	box-shadow: 10px 10px 10px #000;
 	width: 60%;
 }
 
 .sec-pic {
 	border: 1px solid #fff;
-	box-shadow: 0 10px 20px 0 #000;
+	box-shadow: 10px 10px 10px #000;
 	width: 60%;
 }
 
 .league-pic {
 	border: 1px solid #fff;
-	box-shadow: 0 10px 20px 0 #000;
+	box-shadow: 10px 10px 10px #000;
 	width: 70%;
 }
 
 .pitt-pic {
 	border: 1px solid #fff;
-	box-shadow: 0 10px 20px 0 #000;
+	box-shadow: 10px 10px 10px #000;
 	width: 70%;
 }
 
 .picks-pic {
 	border: 1px solid #fff;
-	box-shadow: 0 10px 20px 0 #000;
+	box-shadow: 10px 10px 10px #000;
 	width: 70%;
 }
 

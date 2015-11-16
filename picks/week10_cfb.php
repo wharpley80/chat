@@ -10,7 +10,7 @@ $thisPage = "picks";
 
 include(ROOT_PATH . 'inc/header.php');
 ?>
-	<h2>Game Picks & Odds Chat</h2>
+	<h2>Game Picks & Odds</h2>
 </header>
 <div class="picks-intro">
 	<h2 class="picks-title">Season Record To Date</h2>
@@ -19,19 +19,22 @@ include(ROOT_PATH . 'inc/header.php');
 		<h3 class="season-nfl">2015 NFL</h3>
 	</div>
 	<div class="record-intro">
-		<h4 class="record-cfb">67-56-2</h4>
-		<h4 class="record-nfl">30-19</h4>
+		<h4 class="record-cfb">73-58-2</h4>
+		<h4 class="record-nfl">31-22</h4>
   </div> 
 </div>
 <div class="vault-picks">
 	<div class="old-picks">
 		<a href="<?php echo BASE_URL; ?>picks/index.php#home-picks" class="past-weeks">HOME</a>
   </div>
-	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>picks/week10_cfb.php#cfb10" class="past-weeks" id="selected-week">WEEK 10 CFB</a>
+   <div class="old-picks">
+		<a href="<?php echo BASE_URL; ?>picks/week11_cfb.php#cfb11" class="past-weeks">WEEK 11 CFB</a>
   </div>
   <div class="old-picks">
 		<a href="<?php echo BASE_URL; ?>picks/week9_nfl.php#nfl9" class="past-weeks">WEEK 9 NFL</a>
+  </div>
+  <div class="old-picks">
+		<a href="<?php echo BASE_URL; ?>picks/week10_cfb.php#cfb10" class="past-weeks" id="selected-week">WEEK 10 CFB</a>
   </div>
 </div>
 <a name="cfb10"></a>

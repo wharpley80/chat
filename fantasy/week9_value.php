@@ -27,6 +27,7 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="week9-fantasy"></a>
 <div class="fantasy-intro">
 	<h2 class="fantasy-title">Daily Fantasy Value Picks</h2>
+	<h3>Week 9 Avg VPD (.4)</h3>
 	<img src="../img/pittsburgh-steelers-wide-receiver-antonio-brown.jpg" class="pitt-pic">
 	<h3>Antonio Brown</h3>
 	<h4>$8,100 Draft Kings (49.6 Pts, .61 VPD)</h4>
