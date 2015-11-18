@@ -7,23 +7,13 @@ require_once(ROOT_PATH . 'inc/database.php');
 $chat_id = $_SESSION['chat-id'];
 $chatname = $_SESSION['chatname'];
 $thisPage = "fantasy";
+$fantasyArticle = "home";
 
 include(ROOT_PATH . 'inc/header.php');
 ?>
 	<h2>Fantasy Chat</h2>
 </header>
-<div class="vault">
-	<div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>fantasy/index.php#home-fantasy" class="past-art" id="selected-art">
-			<img src="../img/theleague.jpg" class="img-link">HOME
-		</a>
-  </div>
-	<div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>fantasy/week9_value.php#week9-fantasy" class="past-art">
-			<img src="../img/pittsburgh-steelers-wide-receiver-antonio-brown.jpg" class="img-link">WEEK 9 VALUES
-		</a>
-  </div>
-</div>
+<?php include(ROOT_PATH . 'inc/fantasy_articles.php'); ?>
 <a name="home-fantasy"></a>
 <div class="fantasy-intro">
 	<h2 class="fantasy-title">Daily Fantasy Value Picks</h2>
@@ -114,18 +104,5 @@ include(ROOT_PATH . 'inc/header.php');
 			with value, no matter what the cost.
 		</p>
 </div>
-<div class="shoe">
-<?php	if ($_SESSION['login'] != '') { ?>
-	<div id="container">
-		<form id="chatpost">
-			<label for="chatmessage">Chat Message:</label><br/>
-			<textarea name="chatmessage" id="chatmessage-fantasy"></textarea><br/>
-			<input type="submit" name="submit" id="send-fantasy" value="Send">
-		</form>	
- 	</div>
-<?php } ?>
-	<div id="chatwindow">
-  	<div id="messages-fantasy"></div>
-	</div>
-</div>
+<?php include(ROOT_PATH . 'inc/fantasy_chatbox.php'); ?>
 <?php include(ROOT_PATH . 'inc/footer.php') ?>

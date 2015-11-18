@@ -7,28 +7,13 @@ require_once(ROOT_PATH . 'inc/database.php');
 $chat_id = $_SESSION['chat-id'];
 $chatname = $_SESSION['chatname'];
 $thisPage = "home";
+$homeArticle = "scum";
 
 include(ROOT_PATH . 'inc/header.php');
 ?>
 	<h2>General Chat</h2>
 </header>
-<div class="vault">
-	<div  class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/index.php#home" class="past-art">
-			<img src="../img/alabama-lsu-630.jpg" class="img-link">HOME
-		</a>
-  </div>
-	<div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/um_job.php#goldon" class="past-art" id="selected-art">
-			<img src="../img/Golden_exasperated_face.0.jpg" class="img-link">UM JOB
-		</a>
-  </div>
-  <div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/bat_flip.php#flip" class="past-art">
-			<img src="../img/96802665_display_image.jpg" class="img-link">BAT FLIP
-		</a>
-  </div>
-</div>
+<?php include(ROOT_PATH . 'inc/home_articles.php'); ?>
 <a name="goldon"></a>
 <div class="home-intro">
 	<h2 class="home-title">Is Miami Still a Top Job??</h2>
@@ -44,18 +29,5 @@ include(ROOT_PATH . 'inc/header.php');
 		basically expected to win a National Title, and if you don't then you'll be considered a failure. So you take a job where there is no commitment from the University, the city is not ALL IN like it is at every other major program, and then you have all these great former players that slam you in the media because they expect you to win despite all the oblivious disadvantages you are facing. So basically if you are a good coach and you have options, then you aren't taking this job. So who would want this job?? Despite all these disadvantages I've brought up. I'll go back to what I started with, which is talent. The is enough talent even with most of it being cherry picked away to actually win. So if you are an hot assistant looking for his first HC job or a successful coach at a smaller program then this could be an attractive job. Only problem for Miami is that if they land one of these hot up and coming coaches who actually utilizes the talent available. Once he has success then he is probably gone because of what we've already established...  Miami IS NOT A TOP JOB!!! So to wrap this up the best scenario for the Hurricanes is to hire a former player like a Ed Reed or a Ray Lewis. These guys are football geniuses, which would drawl recruits, and would be a popular hire with all the other former players and fanbase. Only problem with this is that neither of these 2 have any coaching experience that I know of. In retrospect could it go any worse than it's been going for the last 10 years????
 	</p>
 </div>
-<div class="shoe">	
-	<?php if (!empty($_SESSION['login'])) { ?>
-		<div id="container">
-			<form id="chatpost">
-				<label for="chatmessage">Chat Message:</label><br/>
-				<textarea name="chatmessage" id="chatmessage"></textarea><br/>
-				<input type="submit" name="submit" id="sendmssg" value="Send">
-			</form>	
-  	</div>
-	<?php	} ?>
-	<div id="chatwindow">
-	  <div id="messages"></div>
-	</div>
-</div>
-<?php include(ROOT_PATH . 'inc/footer.php') ?>
+<?php include(ROOT_PATH . 'inc/home_chatbox.php'); ?>
+<?php include(ROOT_PATH . 'inc/footer.php'); ?>

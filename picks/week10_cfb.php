@@ -7,36 +7,13 @@ require_once(ROOT_PATH . 'inc/database.php');
 $chat_id = $_SESSION['chat-id'];
 $chatname = $_SESSION['chatname'];
 $thisPage = "picks";
+$picksArticle = "week10cfb";
 
 include(ROOT_PATH . 'inc/header.php');
 ?>
 	<h2>Game Picks & Odds</h2>
 </header>
-<div class="picks-intro">
-	<h2 class="picks-title">Season Record To Date</h2>
-	<div class="picks-record">
-		<h3 class="season-cfb">2015 CFB</h3>
-		<h3 class="season-nfl">2015 NFL</h3>
-	</div>
-	<div class="record-intro">
-		<h4 class="record-cfb">73-58-2</h4>
-		<h4 class="record-nfl">31-22</h4>
-  </div> 
-</div>
-<div class="vault-picks">
-	<div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>picks/index.php#home-picks" class="past-weeks">HOME</a>
-  </div>
-   <div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>picks/week11_cfb.php#cfb11" class="past-weeks">WEEK 11 CFB</a>
-  </div>
-  <div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>picks/week9_nfl.php#nfl9" class="past-weeks">WEEK 9 NFL</a>
-  </div>
-  <div class="old-picks">
-		<a href="<?php echo BASE_URL; ?>picks/week10_cfb.php#cfb10" class="past-weeks" id="selected-week">WEEK 10 CFB</a>
-  </div>
-</div>
+<?php include(ROOT_PATH . 'inc/picks_articles.php'); ?>
 <a name="cfb10"></a>
 <div class="picks-weekly">
  <h2 class="picks-recap">Upset Sataurday (3-10)</h2>
@@ -130,18 +107,5 @@ include(ROOT_PATH . 'inc/header.php');
 		at the same time Minnesota may not score double digits. I have a feeling that Urban will use this #3 ranking to jump start this team. So give me the Buckeyes 31-6
 	</p>
 </div>
-<div class="vegas">
-	<div id="container">
-		<?php if ($_SESSION['login'] != '') { ?>
-		<form id="chatpost">
-			<label for="chatmessage">Chat Message:</label><br/>
-			<textarea name="chatmessage" id="chatmessage-picks"></textarea><br/>
-			<input type="submit" name="submit" id="send-picks" value="Send">
-		</form>	
-	  <?php } ?>
-  </div>
-  <div id="chatwindow">
-  	<div id="messages-picks"></div>
-	</div>
-</div>
+<?php include(ROOT_PATH . 'inc/picks_chatbox.php'); ?>
 <?php include(ROOT_PATH . 'inc/footer.php') ?>

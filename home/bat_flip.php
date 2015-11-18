@@ -7,28 +7,13 @@ require_once(ROOT_PATH . 'inc/database.php');
 $chat_id = $_SESSION['chat-id'];
 $chatname = $_SESSION['chatname'];
 $thisPage = "home";
+$homeArticle = "flip";
 
 include(ROOT_PATH . 'inc/header.php');
 ?>
 	<h2>General Chat</h2>
 </header>
-<div class="vault">
-	<div  class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/index.php#home" class="past-art">
-			<img src="../img/alabama-lsu-630.jpg" class="img-link">HOME
-		</a>
-  </div>
-	<div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/um_job.php#goldon" class="past-art">
-			<img src="../img/Golden_exasperated_face.0.jpg" class="img-link">UM JOB
-		</a>
-  </div>
-  <div class="old-articles">
-		<a href="<?php echo BASE_URL; ?>home/bat_flip.php#flip" class="past-art" id="selected-art">
-			<img src="../img/96802665_display_image.jpg" class="img-link">BAT FLIP
-		</a>
-  </div>
-</div>
+<?php include(ROOT_PATH . 'inc/home_articles.php'); ?>
 <a name="flip"></a>
 <div class="home-intro">
 	<h2 class="home-title">To Flip or Not To Flip???</h2>
@@ -42,18 +27,5 @@ include(ROOT_PATH . 'inc/header.php');
   	feelings because they're too sensative. Now while I feel that Jose Bautista's bat flip was a little over the top... I felt that Yoenis Cespedes's flip was pretty bad ass. Now this brings me to the man pictured above. The GOAT and I can't think of anyone who didn't love his bat flipping or home run trot, just Rickey being Rickey. I close with the fact that Baseball has gone from being America's Pasttime to America's after thought and if fans want to see a bat flip... which they do. Then flip the damn thing!!!!
   </p>
 </div>
-<div class="shoe">	
-	<?php if (!empty($_SESSION['login'])) { ?>
-		<div id="container">
-			<form id="chatpost">
-				<label for="chatmessage">Chat Message:</label><br/>
-				<textarea name="chatmessage" id="chatmessage"></textarea><br/>
-				<input type="submit" name="submit" id="sendmssg" value="Send">
-			</form>	
-  	</div>
-	<?php	} ?>
-	<div id="chatwindow">
-	  <div id="messages"></div>
-	</div>
-</div>
-<?php include(ROOT_PATH . 'inc/footer.php') ?>
+<?php include(ROOT_PATH . 'inc/home_chatbox.php'); ?>
+<?php include(ROOT_PATH . 'inc/footer.php'); ?>
