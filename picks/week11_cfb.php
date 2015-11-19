@@ -17,7 +17,7 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="cfb11"></a>
 <div class="picks-weekly">
 	<h2 class="picks-recap">CFB Week 11 Recap (7-3)</h2>
-	<img src="../img/vegas.jpg" class="picks-pic">
+	<img src="../img/Washington-St-UCLA-1.jpg" class="picks-pic">
 	<p class="picks-talk">
 	</P>
 	<h3 class="my-picks">Kansas +45</h3>

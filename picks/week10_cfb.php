@@ -17,7 +17,7 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="cfb10"></a>
 <div class="picks-weekly">
  <h2 class="picks-recap">Upset Sataurday (3-10)</h2>
- <img src="../img/vegas.jpg" class="picks-pic">
+ <img src="../img/563ed5aac990d.image.jpg" class="picks-pic">
  <p class="picks-talk">Well this will go down as a day to FORGET!! This day started off bad and just go worse from there. I was heavy loaded with favorites
  	on this day and it turned out to be Upset Sataurday. Can't remember having a day this bad in a LONG time, but these days happen so nothing you can do. Just 
  	eat your piece of humble pie and move on to the next day. 

@@ -516,42 +516,28 @@ textarea {
 	border: 1px solid #fff;
 	box-shadow: 10px 10px 10px #000;
 	width: 40%;
+	margin-bottom: 1.5em;
 }
 
-.golden-pic {
+.home-pic {
 	border: 1px solid #fff;
 	box-shadow: 10px 10px 10px #000;
 	width: 70%;
+	margin-bottom: 1.5em;
 }
 
-.sec-pic {
+.fantasy-pic {
 	border: 1px solid #fff;
 	box-shadow: 10px 10px 10px #000;
 	width: 70%;
-}
-
-.league-pic {
-	border: 1px solid #fff;
-	box-shadow: 10px 10px 10px #000;
-	width: 70%;
-}
-
-.pitt-pic {
-	border: 1px solid #fff;
-	box-shadow: 10px 10px 10px #000;
-	width: 70%;
+	margin-bottom: 1.5em;
 }
 
 .picks-pic {
 	border: 1px solid #fff;
 	box-shadow: 10px 10px 10px #000;
 	width: 70%;
-}
-
-.zeek-pic {
-	border: 1px solid #fff;
-	box-shadow: 10px 10px 10px #000;
-	width: 70%;
+	margin-bottom: 1.5em;
 }
 
 /*******************************

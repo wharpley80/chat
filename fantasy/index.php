@@ -17,78 +17,70 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="home-fantasy"></a>
 <div class="fantasy-intro">
 	<h2 class="fantasy-title">Daily Fantasy Value Picks</h2>
-	<img src="../img/theleague.jpg" class="league-pic">
-	<h3>Aaron Rodgers</h3>
-	<h4>$7,500 Draft Kings (25.12 Pts, .33 VPD)</h4>
-		<p class="fantasy-body">Yes Rodgers is the most expensive QB behind Brady this week, but this is about the Value Per Dollar
-			ratio that I use. I had Antonio Brown on this list last week and it worked out pretty good. Rodgers is coming home after
-			the toughest 2 game stretch that he will have all year (@DEN, @CAR). This will be a get right situation for Rodgers facing
-			the 18th ranked pass defense and a team that is 29th in fantasy points allowed to QBs. Expect a BIG game from Rodgers as 
-			he gets back on track. 
+	<img src="../img/hi-res-855ff8c9b8331a54b110fd279c2b3d1d_crop_north.jpg" class="fantasy-pic">
+	<h3>Matthew Stafford</h3>
+	<h4>$5,400 Draft Kings</h4>
+		<p class="fantasy-body">Stafford is not balling out by any stretch of the imagination, but I believe that given the right
+			matchup that he can still produce. This is without a doubt his best matchup of the year to date. Detroit is coming off of
+			their best game of the year winning at Green Bay for the first time since 1991. This should build at least a little
+			confidence in a struggling Detroit locker room. Now they travel back home to play against the Raiders who are the 27th
+			ranked in fantasy points allowed to opposing QBs and 31st in total pass defense. It sets up for Stafford to have a good day
+			and if he can score a modest 20 pts then that would be a .37 VPD based on his salary. I think Stafford is a safe play IMO as
+			crazy as it sounds. 
 		</p>
-	<h3>Jordan Reed</h3>
-	<h4>$4,600 Draft Kings (17.9 Pts, .39 VPD)</h4>
-		<p class="fantasy-body">Reed when healthy is almost uncoverable by linebackers. Problem is that he is often injured and has 
-			had inconsistent QB play to get him the ball. Reed is healthy and this is a favorable mathcup for him in a home game vs the
-			Saints. NO ranks 30th in pass defense and they are 31st in defending the TE position. All considered Reed is the only 10th 
-			highest cost at TE, which to me looks like great value.
+	<h3>Charcandrick West</h3>
+	<h4>$4,500 Draft Kings</h4>
+		<p class="fantasy-body">This is the type of matchup that makes fantasy owners' mouth water, and is a LOCK as far as I'm concerned.
+			In his last 3 games West has posted the following points(VPD) 31.1(.65), 22.2(.47), and 23.9(.57). Now that is the type of value
+			that puts you in the money. This week lines up very well for West as he faces the Chargers who rank 32nd in fantasy points allowed
+			to RBs and 27th in total rushing defense. West will get the touches and you can only expect that he will produce and at this price
+			you have to see great value here.
 		</p>
-	<h3>Doug Martin</h3>
-	<h4>$5,600 Draft Kings (14.3 Pts, .26 VPD)</h4>
-		<p class="fantasy-body">Martin has been hit or miss this season. He loses snaps to Charles Sims if the team is playing from 
-			behind, but even if Dallas wins this game. It's hard to imagine that Tampa will need to abandon the run game. This also sets 
-			up to be a good matchup for Martin as Dallas is 17th in total rush defense, but 31st in fantasy points allowed to RBs.
+	<h3>Danny Amendola</h3>
+	<h4>$4,000 Draft Kings</h4>
+		<p class="fantasy-body">Julian Edelman went down last week and as a result Amendola had his highest recieving total of the year
+			hauling in 10 receptions. Edelman will miss some time out with surgery and it looks like Amendola will be the benefactor here. 
+			DK has not made the adjustment in Amendola's salary so take advantage before they do. Matchup wise it sets up to be above average
+			as Buffalo is ranked 22nd in fantasy points allowed to opposing WR, so looks like a good value play to me.
 		</P>
-	<h3>Blake Bortles</h3>
-	<h4>$5,600 Draft Kings (17.2 Pts, .31 VPD)</h4>
-		<p class="fantasy-body">Bortles has been a pleasant suprise this year and he's only improving. He's coming off of an impressive
-			road performance against the Jets, which was NOT a good matchup. He threw for 381 yds and 2 TDs in that matchup, so not too
-			shabby. Now he heads on the raod to face the Ravens who sport the 29th ranked total pass defense and are 31st in fanasty points
-			allow to QBs. Bortles has an array of weapons, is building confidence, has a good matchup, and is 13th in QB price this week.
-			Looks like good value there to me.
+	<h3>Darren McFadden</h3>
+	<h4>$5,000 Draft Kings</h4>
+		<p class="fantasy-body">Teams have been stacking the box against Dallas for obvious reasons, and with Romo making his return this
+			weekend you'd think that will change. Dez Bryant should be somewhat improved and teams will have to show respect to the passing
+			game which has been non-existant since Romo got injured. With teams focusing on Romo that opens up the running game, and it sets 
+			up as a solid matchup for that this week as the opponent is Miami who ranks 31st in fantasy points allowed to opposing RBs and
+			31st in total rushing defense. All that being said McFadden looks to be a good value play for the week.
 		</P>
-	<h3>Legarrette Blount</h3>
-	<h4>$4,900 Draft Kings (15.7 Pts, .32 VPD)</h4>
-		<p class="fantasy-body">With the injury to Dion Lewis there are going to be extra snaps available in the NE backfield. This 
-			is the safe play as it's fairly obvious that Blount will get the bulk of the carries. You could make the play of James White
-			or Brandon Bolden as they will take Lewis's spot as the pass cathcer out of the backfield, but that is a much riskier play. 
-			The matchup is favorable as the Giants rank 25th in rush defense and 22nd in fantasy points allowed to running backs.
+	<h3>Stevie Johnson</h3>
+	<h4>$3,900 Draft Kings</h4>
+		<p class="fantasy-body">With Keenan Allen done for the year and now Malcom Floyd looking like he cold be done for the year as well. There
+			are not many options left for Rivers to throw to. The Chargers may start running the ball a little more, but they will still be 
+			a pass first team beacuse they are incapable of run blocking. Johnson is the only WR left with legitimate experience as the team faces
+			off against the Cheifs who rank 32nd in fantasy points allowed to opposing WRs. 
 		</P>
-	<h3>Demaryius Thomas</h3>
-	<h4>$7,400 Draft Kings (14.1 Pts, .19 VPD)</h4>
-		<p class="fantasy-body">Thomas has not had an electric season so far, but he has been consistant. This lines up to be a good 
-			matchup for Thomas. The Broncos are coming off their first loss of the season, KC ranks 22nd in pass defense, and 32nd in 
-			fantasy points allow to WRs. I would expect a solid game from Thomas with a possibility of a huge game since he is due.
+	<h3></h3>
+	<h4></h4>
+		<p class="fantasy-body">
 		</P>
-	<h3>DeAngelo Williams</h3>
-	<h4>$6,500 Draft Kings (7.9 Pts, .12 VPD)</h4>
-		<p class="fantasy-body">Big Ben looks like he will be a no go here, so what does that mean?? Means the Steelers will rely 
-			heavily on their running game against the 32nd ranked rush defense in the NFL. Williams has had solid days in all 3 his starts
-			17.2, 31.2, and 41.5. And he is not the cheapest option, but could be in line for a BIG day.
+	<h3></h3>
+	<h4></h4>
+		<p class="fantasy-body">
 		</P>
-	<h3>Allen Robinson</h3>
-	<h4>$6,700 Draft Kings (16.1 Pts, .24 VPD)</h4>
-		<p class="fantasy-body">This pick could go to Allen Hurns as well, while he's a little cheaper and has scored a TD in 6 straight
-			games. I like Robinson a little better because he is a better deep threat and Baltimore is vulnerable over the top. The Ravens
-			are 31st in points allowed to WRs and 29th in total pass defense. So take your pick, but I'm riding with Robinson.
+	<h3></h3>
+	<h4></h4>
+		<p class="fantasy-body">
 		</P>
-	<h3>James Starks</h3>
-	<h4>$4,900 Draft Kings (15.6 Pts, .32 VPD)</h4>
-		<p class="fantasy-body">Starks has been the best running back in the Packers backfield ALL year. Now that he is the starter then 
-			there is more comfort in his touch count. Lacy is ruled out this week, and Detroit has the 30th ranked rushing defense. I'm expecting
-			 a big day out of the Packers offense and Starks should benefit and at a valued cost.
+	<h3></h3>
+	<h4></h4>
+		<p class="fantasy-body">
 		</P>
-	<h3>James White</h3>
-	<h4>$3,000 Draft Kings (2.1 Pts, .07 VPD)</h4>
-		<p class="fantasy-body">If you're looking for a big upside for a low price, then White is the guy. I beleive Blount is the safer
-			play here, but there isn't much risk with only a $3,000 price. White may not get the carries, but he is expected to replace Dion 
-			Lewis on passing downs. Brady loves hitting up RB out of the backfield, so I will chance it for the price.
+	<h3></h3>
+	<h4></h4>
+		<p class="fantasy-body">
 		</P>
-	<h3>Chris Givens</h3>
-	<h4>$3,200 Draft Kings (13.7 Pts, .43 VPD)</h4>
-		<p class="fantasy-body">Givens will start due to the injury to Steve Smith. He will be the deep threat in the offense, and 
-			could fit with Flaco's big are. The Jags are ranked 25th in pass defense and he could have a somewhat productive day at home. Don't 
-			expect a huge day, but isn't a bad option for the price.
+	<h3></h3>
+	<h4></h4>
+		<p class="fantasy-body">
 		</P>
 	<h2 class="fantasy-title">What is VPD??</h2>
 		<p class="fantasy-body">Value Per Dollar, this is just a ratio to evaluate how much production you get out of a player for

@@ -17,7 +17,7 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="goldon"></a>
 <div class="home-intro">
 	<h2 class="home-title">Is Miami Still a Top Job??</h2>
-	<img src="../img/Golden_exasperated_face.0.jpg" class="golden-pic">
+	<img src="../img/Golden_exasperated_face.0.jpg" class="home-pic">
 	<p class="home-body">I guess this really depends on who you are. If you're one of the 20,000 die hard Miami fans then
 		I'm sure you'll say yes. They can make some valid points in their favor. South Florida is talent rich and that's a fact, 
 		so I'm not even going to try and argue against that. Miami has been irrelevant since basically 03 or 04, but that hasn't stopped them from continuing to produce NFL talent. Now I think they're going to lose more recruits than they get. This has been happening and it's going to continue to happen. Let's just be realistic here, unless a recruit grew up a Hurricane fan, wants to stay close to home, or REALLY likes Miami's coach... then he will go elsewhere. That being said, I still think there is enough talent that they could compete for and actually win an ACC title. Something that they have yet to do since joining the ACC in 2004. 

@@ -17,7 +17,7 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="nfl9"></a>
 <div class="picks-weekly">
 	<h2 class="picks-recap">NFL WEEK 9 (1-4)</h2>
-	<img src="../img/vegas.jpg" class="picks-pic">
+	<img src="../img/185451616.jpg" class="picks-pic">
   <p class="picks-talk">
   </p>
   <h3 class="my-picks">Jacksonville +8</h3> 

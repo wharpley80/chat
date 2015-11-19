@@ -17,7 +17,7 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="bias"></a>
 <div class="home-intro">
 	<h2 class="home-title">SEC Bias is Ridiculous</h2>
-	<img src="../img/alabama-lsu-630.jpg" class="sec-pic">
+	<img src="../img/alabama-lsu-630.jpg" class="home-pic">
 	<p class="home-body">This has been going on for years now, but this is just my forum to vent. First I'd like to 
 		acknowledge that I actually enjoy watching SEC football. Along with most of the BIG 10 and about half of the 
 		ACC it's the only other conference that plays defense consistently anymore. And I will concede that the SEC is 

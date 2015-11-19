@@ -17,7 +17,7 @@ include(ROOT_PATH . 'inc/header.php');
 <a name="home"></a>
 <div class="home-intro">
 	<h2 class="home-title">1 Loss Bama A Joke</h2>
-	<img src="../img/osufb-1-8-art0-g03vts3h-1osu14ala-eq-08-jpg.jpg" class="zeek-pic">
+	<img src="../img/osufb-1-8-art0-g03vts3h-1osu14ala-eq-08-jpg.jpg" class="home-pic">
 	<p class="home-body">That's right you read the title correctly. A 1 loss Bama team has no damn bussiness being above an undefeated
 		Oklahoma State, Iowa, and especially not Ohio State. This is an insult to a knowledgable college football fan. We are near the end
 		of the season and a 1 loss SEC team is ranked higher in the CFB Playoff Rankings than 3 other undefeated teams from power 5
@@ -70,4 +70,4 @@ include(ROOT_PATH . 'inc/header.php');
 	</p>
 </div>
 <?php include(ROOT_PATH . 'inc/home_chatbox.php'); ?>
-<?php include(ROOT_PATH . 'inc/footer.php'); ?>
+<?php include(ROOT_PATH . 'inc/footer.php');  ?>
