@@ -39,6 +39,10 @@ h3 {
 	text-decoration: underline;
 }
 
+h3.loser {
+	color: #DC143C;
+}
+
 p {
 	font-family: 'Helvetica', arial, sans-serif;
 	text-align: center;
@@ -70,8 +74,6 @@ li.selected a {
 
 nav {
 	text-align: center;
-	padding: 30px 0 0 0;
-	margin: 20px 0 0 0;
 }
 
 nav a {
@@ -491,21 +493,6 @@ textarea {
 	background-image: url(bg.gif);
 	background-position: bottom right;
 	background-repeat: no-repeat;
-}
-
-#sendmssg {
-	background: #000;
-	color: #fff;
-}
-
-#sendmssg2 {
-	background: #000;
-	color: #fff;
-}
-
-#sendmssg3 {
-	background: #000;
-	color: #fff;
 }
 
 /*******************************

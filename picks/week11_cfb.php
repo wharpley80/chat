@@ -29,7 +29,7 @@ include(ROOT_PATH . 'inc/header.php');
 		2 lines all year, so maybe that's the reason for the adjustment here??? JT Barrett will be back at QB and Urban will look 
 		to get the offense back on track before heading into the stretch run. This is a home rivalry game which ususally means take the points, but not here. This is the first time this season that I've actually thought the line was too low for an Ohio State game. Look for the Buckeyes to win this game easily and cover.
 	</p>
-	<h3 class="my-picks">Utah State -1</h3>
+	<h3 class="loser">Utah State -1</h3>
 	<p class="picks-talk">The Aggies are 4-2 with Kent Myers starting at QB, and although they have lost 2/3, Myers has produced
 		a 10/1 TD/INT ratio. They play at the Air Force Academy who is sporting a 3 game winning streak coming into the weekend, and although they have a 6-3 record overall they haven't beaten a team with a winning record all year. Utah State has 1 statement victory this year, which is 1 more than the Falcons and they also have beaten the Falcons 2 straight games with a combined score of 86-36. Looks like a favorable matchup for the Aggies and I'll take them to cover this small line.
 	</p>
@@ -41,7 +41,7 @@ include(ROOT_PATH . 'inc/header.php');
 	<p class="picks-talk">The Razorbacks come in playing really quality football winners of 4/5, that lone loss came @ Bama 
 		where they actually put up a tougher fight than LSU did. Arkansas QB Brandon Allen is coming off a tremendous performance @ Ole Miss where he threw for 442 yds and 6 TD. The Razorbacks rank 27th in rush defense so I think they can keep Fournette to a reasonable night and keep in close if not pull off the upset. 
 	</p>
-	<h3 class="my-picks">Minnesota @ Iowa under 47</h3>
+	<h3 class="loser">Minnesota @ Iowa under 47</h3>
 	<p class="picks-talk">This game looks to be your old school 3 yards and a cloud of dust B1G game. Both teams want to run the
 	  ball and keep the clock running. Both teams will actually HUDDLE, play quality defense, and neither team is really the quick score type. I think Iowa is deserving of their ranking, but I just don't see a lot of combined scoring here.
 	</p>
@@ -53,7 +53,7 @@ include(ROOT_PATH . 'inc/header.php');
 	<p class="picks-talk">VT has won 4/5 and 7/10 against the Yellow Jackets. What does this mean?? Well the key to playing the 
 		triple-option is playing assignment defense. It shows me that Frank Beamer coached teams do a good job of playing assignment defense. Both teams are having disappointing seasons and there is no clear cut favorite here, so the line here is only adjusted for home field advantage. I'll take the points and Beamer's track record of success against GT.
 	</p>
-  <h3 class="my-picks">BGSU @ W.Michigan over 75</h3> 
+  <h3 class="loser">BGSU @ W.Michigan over 75</h3> 
 	<p class="picks-talk">This is what you call a confidence pick right here. As bad as I was last weekend... and I was bad.
 	  This game right here I will make it all up. These are 2 high powered offenses with below average defenses. At 75 I would bet the house, but not betting the house just getting my loses back. So a MACtion shootout!! Sit back and enjoy the points on my pick of the week.
 	</p>

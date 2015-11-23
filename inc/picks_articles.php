@@ -5,14 +5,24 @@
     <h3 class="season-nfl">2015 NFL</h3>
   </div>
   <div class="record-intro">
-    <h4 class="record-cfb">73-58-2</h4>
-    <h4 class="record-nfl">31-22</h4>
+    <h4 class="record-cfb">77-62-2</h4>
+    <h4 class="record-nfl">33-24</h4>
   </div> 
 </div>
 <div class="vault">
 	<div class="old-articles">
 		<a href="<?php echo BASE_URL; ?>picks/index.php#home-picks" class="past-art" <?php if ($picksArticle=="home") echo " id=\"selected-art\""; ?>>
       <img src="../img/vegas.jpg" class="img-link">HOME
+    </a>
+  </div>
+  <div class="old-articles">
+    <a href="<?php echo BASE_URL; ?>picks/week12_cfb.php#cfb12" class="past-art" <?php if ($picksArticle=="week12cfb") echo " id=\"selected-art\""; ?>>
+      <img src="../img/usa-today-8943081.0.jpg" class="img-link">WEEK 12 CFB
+    </a>
+  </div>
+  <div class="old-articles">
+    <a href="<?php echo BASE_URL; ?>picks/week10_nfl.php#nfl10" class="past-art" <?php if ($picksArticle=="week10nfl") echo " id=\"selected-art\""; ?>>
+      <img src="../img/111515-bradford-hurt-1200.jpg" class="img-link">WEEK 10 NFL
     </a>
   </div>
    <div class="old-articles">

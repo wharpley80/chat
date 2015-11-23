@@ -16,43 +16,31 @@ include(ROOT_PATH . 'inc/header.php');
 <?php include(ROOT_PATH . 'inc/picks_articles.php'); ?>
 <a name="home-picks"></a>
 <div class="picks-weekly">
-	<h2 class="picks-recap">NFL Week 10 (1-3)</h2>
+	<h2 class="picks-recap">NFL Week 11 (2-2)</h2>
 	<img src="../img/vegas.jpg" class="picks-pic">
 	<p class="picks-talk">
 	</P>
-	<h3 class="my-picks">Jacksonville +5</h3>
-	<p class="picks-talk">The Jaguars are 2-6, but are actually playing very solid football. They are young and the inexperience
-		shows itself at times, but they are also very talented and improving as the season wears on. J-ville's most upside is on the 
-		offensive side where Blake Bortles is starting to show why he was the #3 overall pick a few years back. He has several young 
-		skill players surrounding him to make the Jaguars very capable of scoring. The Ravens aren't as bad as their record, but they just 
-		aren't the same Ravens of the past especially on the defensive side of the ball. They rank 29th in pass defense, which should 
-		give Bortles and the talented recieving corp opportunities to make plays in the passing game. I like the Jags to keep it close
-		and possibly win the game outright, so give me the points here.
+	<h3 class="my-picks">Jacksonville -3</h3>
+	<p class="picks-talk">The Jaguars(3-6) come in winners 2 of their last 3 and are moving in the right direction. Bortles is 
+		gaining confidence as the season progresses and he is surrounded by a deep group of young playmakers. Bortles has thrown for 2 or more TDs in 7 of 9 games and has played consistant for most the season. The Titans(2-7) have seen good production
+		out of Mariota when he's been healthy, but the team as a whole has struggled with consistancey for most the season. This 
+		will be the Jaguars first home game in over a month and I just really like the direction they are going. So I'll take the home team on the shorst week.
 	</p>
-	<h3 class="my-picks">New Orleans -1</h3>
-	<p class="picks-talk">The Saints come in this game with Drew Brees playing at a very high level. Unfortunately the Saints defense
-		is near the bottom of the league in most categories. I was on the fence thinking about taking the Redskins at home because of 
-		the Saints defensive troubles, but there are a few things that put me on NO's side. First reason is that Washington ranks 29th
-		in rushing defense. This will allow the Saints to run the ball at least effectively enough to set up the play action pass which
-		is a huge plus for Brees. The second large factor is the Redskins inability to get to the QB. They rank 30th in sacks, so I'm 
-		assuming that Brees will be able to set up play action and have a clean pocket to pass from for most the day. I'm sure Washington
-		will score pretty easily, but I am rolling with Brees as I think this sets up as a game he can pull off.
+	<h3 class="loser">Jets -3</h3>
+	<p class="picks-talk">The Jets(5-4) travel to Houston to take on the Texans(4-5). Houston has already lost Arian Foster for 
+		the year due to injury and now Brian Hoyer will not suit up this week due to the concussion he suffered Monday Night. TJ Yates is filling in and even though he looked servicable Monday Night he is without a doubt a downgrade from Hoyer. Although
+		Houston is coming in off their biggest win of the season an upset over the undefeated Bengals. I still don't have ANY confidence in them to follow that up here. Even though Houston has won 3 of 4 and the Jets have lost 3 of 4. The Jets have the #1 rushing defense in the NFl, which will put extra pressure on Yates. Houston ranks 25th in rush defense which should allow the Jets to have a balanced offensive attack. Give me the Jets to get back on track here and cover on the road.
 	</p>
-	<h3 class="my-picks">Philadelphia -6</h3>
-	<p class="picks-talk">The Dan Cambell honeymoon is over and the Dolphins have lost their last 2 games by a combined score of
-		69-24. This sets up as tough matchup for Miami as Philly has won 3/4 and their running game is hitting stride. Problem is that 
-		Miami is ranked 31st in rushing defense, and when Philly can run the ball then it can be a very long day for opposing teams. 
-		the running game will set up the play action, which means that Philly should score easily and Miami will have to try and keep 
-		up. Philly's defense is ranked 15th in sacks and 4th in INTs, so I got the Eagles winninig at home by double digits.
+	<h3 class="loser">Atlanta -4</h3>
+	<p class="picks-talk">The Falcons(6-3) come in losers 3 of their last 4, but are also coming off of their bye week. The 
+		Colts(4-5) are also coming off their bye and a big win over the Broncos, but they are also without Andrew Luck. Although Hasselback is 2-0 in his starts in replacement of Luck this year. I think this will be his most difficult task this year
+		as the Falcons rank 3rd in rushing defense and this should put the burden on Hasselback. This is a good opportunity for the Falcons to get back on track against a banged up Colts team that are also without defensive leader Mike Adams. 
 	</p>
-	<h3 class="my-picks">Oakland -3</h3>
-	<p class="picks-talk">Derek Carr is for real and so are da Raiders. The Vikings are also a huge suprise as they sit at 6-2, but
-		their only 2 loses come out west @ SF and @ Den. They also rely heavily on their rushing attack as Bridgewater has been solid,
-		but he alone is not the reason behind their great start. Oakland ranks 7th in rushing defense, which will put extra pressure 
-		on Bridgewater and the passing game. I think this and the trip out west will contribute to a difficult day for the Vikings. Should
-		be a good game, but I think that the Raiders can with by a TD here.
+	<h3 class="my-picks">Seattle -13</h3>
+	<p class="picks-talk">49ers have lost their last 3 games to Seattle by an average of 23.66 points... those were good 49ers 
+		teams. Blaine Gabbert admittedly looked better in his first start than Kaepernick has over the last year, but playing at Seattle is a little more difficult than playing at home. No Carlos Hyde again today, so I really see a long and difficult day for Gabbert and the offense. 
 	</p>
-	<h3 class="my-picks"</h3>
+	<h3class="my-picks"></h3>
 	<p class="picks-talk">
 	</p>
 	<h3 class="my-picks"></h3>

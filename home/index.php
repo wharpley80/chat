@@ -16,57 +16,34 @@ include(ROOT_PATH . 'inc/header.php');
 <?php include(ROOT_PATH . 'inc/home_articles.php'); ?>
 <a name="home"></a>
 <div class="home-intro">
-	<h2 class="home-title">1 Loss Bama A Joke</h2>
-	<img src="../img/osufb-1-8-art0-g03vts3h-1osu14ala-eq-08-jpg.jpg" class="home-pic">
-	<p class="home-body">That's right you read the title correctly. A 1 loss Bama team has no damn bussiness being above an undefeated
-		Oklahoma State, Iowa, and especially not Ohio State. This is an insult to a knowledgable college football fan. We are near the end
-		of the season and a 1 loss SEC team is ranked higher in the CFB Playoff Rankings than 3 other undefeated teams from power 5
-		conferences. So why do we play the games?? I get that there is no reason to panic because everything will work it's way out by the
-		end of November. That may be true, but why is Bama ranked #2 then?? If everything will work it's way out then why doesn't 1 loss
-		Bama sit back at #4 or #5 where they belong? They have done nothing to deserve being ranked higher than those other 3 schools. 
+	<h2 class="home-title">Arenado for MVP</h2>
+	<img src="../img/andrew-susac-nolan-arenado-mlb-colorado-rockies-san-francisco-giants1-850x560.jpg" class="home-pic">
+	<p class="home-body">Truth be told that there are many people out there that actually consider themselves baseball fans yet 
+		they either don't know who Nolan Arenado is or they know who he is and say "Oh, the guy that plays at Coors Field?". For those that don't know, Arenado has quickly become one of the best, if not the best position players in ALL of baseball. At the very least he has brought his name into the conversation, and no not with the average fan or by people who's opinion 
+		is bought (i.e., media, sports writters). Most people haven't and won't watch Arenado play on a nightly basis, but if you 
+		did then I would gaurantee that you would come up with the same opinion. 
   </p>
-  <p class="home-body">Bottom line is that it's all about ESPN's deal with the SEC which is worth over $2 billion. That's right for
-  	you misguided who take ESPN as the gospel then look it up. ESPN has a TV deal for 15 years and over $2 billion with the SEC. Sure 
-  	they have deals with other conferences as well, but none come close to the deal that created the SEC Network. They are fully invested
-  	in the SEC and do everythinig in their power to boost their investment. ESPN for the most part owns CFB. If you doubt it then count how
-  	many games are aired throughout the week on ESPN or ABC versus every other network combined. So what'd you come up with about 20-10? 
-  	Depending on the week it can change, but that's about the right ratio. So ESPN's influence through either media or $$ is HUGE on the 
-  	college football landscape. Still don't understand??
+  <p class="home-body">I'm sure that Bryce Harper is going to walk away with the NL MVP award, but I'll tell you why it's a 
+  	complete snub that Arenado isn't the NL MVP or at least a finalist. The MVP award is usually tied to winning and that is no secret, but it's also a season long award as well. Now the 3 finalists are Bryce Harper (83-79 GB-7), Joey Votto (64-98 GB-36), and Paul Goldschmidt (79-83 GB-13). So the Nationals were the only team of the 3 that even finished above .500, and they were out of the playoff race for the last month of the season. The Nationals were also one of the biggest disappointments in all of baseball this year. Now I'm not saying that was Harper's fault in anyway because he no doubt had a
+  	stellar season. My point is that Harper was not so valuable to his team that they overachieved or at least had a great season as a team. 
 	</p>
-	<p class="home-body">Let me break down Bama and who they've played. We will start with out of conference. They played UL Monroe (1-9),
-		Middle Tennessee (5-5), and #21 Wisconsin (8-2). The first 2 listed are nothing to brag about, but Wisconsin is a formidable opponent.
-		The problem is that they played at a neutral site, against a new coach in his first game coached at Wisconsin, Wisconsin lost it's best
-		defensive player and captain (Michael Caputo) on the 3rd play of the game to a head injury, and their best offensive player (Corey Clement)
-		left in the first half with a groin injury. Now a convincing win over Wisconsin is a nice victory, but all things considered it was no 
-		statement win by any means. Then you look at the fact that Wisconsin hasn't beaten a team with a winning record all year and it deffinately
-		isn't a HUGE win. Oh and Bama's last OOC game is this weekend against Charleston Southern. Nothing like a nice little FCS school on the 
-		schedule in late November right before Rivalry Week, HAHA!
+	<p class="home-body">Now let's look at the offensive numbers where Arenado lead the NL along with Harper with 42 HR. The 
+		other finalist finished with Votto(29) and Goldschmidt(33). Next we go to RBIs where Arenado led the Majors with 130, and
+		the other finalist finished with Goldshmidt(110), Harper(99), and Voto(80). Then you go to XBH or extra base hits where Arenado again led the majors and also set a NL record for third basemen with 89. In a pitchers/humidor era Arenado set a mark never before reached by a NL third basemen. I will note that Arenado is the only one of the 4 to finish with a BA under .300, but he did finish with a strong .287 average which is very good. Harper did finish with a .330 BA, .460 OBS, and .649 SLG which all led the rest of theses guys. This article is not meant to diminish any player I discuss it is only 
+		to compare. Most people see Coors Field and they automatically discount anything that a player does in a Colorado uniform,
+		but what these people don't realize is that Arenado led the NL with 22 road HRs. He actually hit more HRs away from Coors Field than he did at Coors Field, so let that sink in for a minute... maybe it's not Coors Field... maybe this guy can really just flat out RAKE!!
 	</p>
-	<p class="home-body">Alright, so you say that they play such a difficult schedule with the SEC. I guess if you're a moron that lives in the 
-		south and doesn't realize that there is football being played around the country outside the SEC, then that would sound very believable to 
-		you. Unfortunately the rest of us have a brain and can come to the conclusion that the SEC is another good conference and nothing else. So the only reason 
-		that Bama has a difficult schedule is because SEC teams are ALL over hyped and over ranked. Don't believe me?? Fine, so Bama is (6-1) in 
-		conference. Now of those 7 teams they've played. Those 7 teams have played 26 OOC games. Of those 26 OOC games only 4 have been against
-		teams from a Power 5 conference. Now in those 4 games the SEC is 2-2. Those 2 wins came against Arizona State (5-5) and Syracuse (3-7). So 
-		we are 10 games into the season and none of the 7 SEC teams that Bama has played even has a victory over a ranked team from a Power 5 conference
-		or even a team with a winning record from a Power 5 conference for that matter. Then to drive it home. The second best team in the SEC west
-	  who just drugg LSU @ Death Valley is Arkansas. Now look at Arkansas's schedule because they lost to TOLEDO and TEXAS TECH who is probably the
-	  worst defensive team in all of CFB. They're beating up on the SEC yet they couldn't manage victories over Toldeo and Texas Tech... wow.
+	<p class="home-body">Since the MVP is not supposed to solely be an offensive award then lets take a look at the defensive 
+		side of things. All of these guys are outstanding defensively as Harper is the only 1 not to own a Gold Glove. Goldshmidt
+		has won a GG at 1B for 2 of the last 3 years and Votto won a GG at 1B back in 2011. Arenado at 3B plays the position of the
+		highest difficulty of these guys and it's not even close. Arenado has won 3 straight GGs which gives him a GG for every full year he has played in the majors. Arenado's defense is so amazing that it is worth the ticket price every night just to
+		watch what he does on the diamond defensively. Let me make it a little more clear, Brooks Robinson who is widely regarded as the best defensive 3B of all time while winning 16 Gold Gloves has been quoted as saying that he picks up the paper every morning to see what Arenado does... need I say more???
 	</p>
-	<p class="home-body">So tell me again how big and bad the SEC really is... I'm waiting because I'd love for you to explain it to me. You'll probably
-		want to tell me about all the BCS titles that the SEC won and especially the one where they played against each other (LSU/BAMA) in what is the 
-		biggest disgrace of a title game in the history of any sport. Now if the past is relevant then lets talk about the immediate past like last year
-		where Bama lost in the Sugar Bowl to Ohio State. Where Ohio State was faster and more athletic and ran the ball down the throat of Bama for 281
-		yards. The same Ohio State team that returned every key player from a year ago, is 10-0 (1 fewer loss than Bama), and yet is behind Bama in the 
-		CFB Playoff Rankings. To make an even bigger joke they were ranked behind LSU in the first poll because they were the only undefeated SEC team. 
+	<p class="home-body">I said before that my point is not to tear down the finalist, but to bring awareness to the greatness of 
+		Nolan Arenado. This guy is a complete treat to watch, he plays the game everyday with an intensity that is rivaled by none,
+		and he plays the game the right way which is few and far between these days. Harper will probably win the award and he is deserving and had a wonderful year. I just wonder how much of him winning is attributed to that being the story that people want... in a sport lacking stories that people care about. The biggest JOKE is how Votto is a finalist when he plays a lesser position, defends that position averagely, has a much inferior stat line, and plays on a team with a worse record. If nothing else explan that to me...
 	</p>
-	<p class="home-body">In conclusion I'm not making the arguement that Oklahoma State, Iowa, or Ohio State have amazing OOC victories because they
-		don't. And I'm not saying that Bama is horrible because they are obviously a talented team. And I'm not saying that the SEC is a weak conference 
-		because they aren't. My points which I have provided sufficent evidence for is that a 1 loss Bama team has no bussiness being ahead of those other 
-		undefeated teams this late in the season. There is no legitimate arguement because all they have done is beaten a bunch of over ranked SEC teams 
-		that haven't beaten anyone but eachother. Quit drinking the Kool-Aid man!! And by the way, Bama's loss is a bad one. A home loss to a 3 loss Ole 
-		Miss team. Ole Miss is a perenial SEC bottom dweller for years. You only think they're relevant becasue they've beaten Bama 2 years in a row. So 
-		bump Bama back to 5 or 6 where they BELONG, and let the chip fall where they may.
+	<p class="home-body">
 	</p>
 </div>
 <?php include(ROOT_PATH . 'inc/home_chatbox.php'); ?>

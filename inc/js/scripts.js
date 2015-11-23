@@ -108,7 +108,7 @@ $(function() {
 	}, 500);
 
   // Posts Message From Home Chat
-	$('#sendmssg').on('click', function(event) {
+	$('#send-home').on('click', function(event) {
 		event.preventDefault();
 		var message = $('#chatmessage').val();
 

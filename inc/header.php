@@ -30,7 +30,7 @@
 		<?php if (!(isset($_SESSION['login']) && !empty($_SESSION['login']))) { ?>
 			<nav class="login">
 				<a href="../signin" id="loginbut">LOGIN</a>
-				<a href="../signup" id="signupbut">CHAT NOW</a>
+				<a href="../signup" id="signupbut">NEW USER</a>
 			</nav>
 		<?php }	else { ?>
 			<nav class="logout">
