@@ -1,7 +1,12 @@
 <div class="vault">
 	<div  class="old-articles">
 		<a href="<?php echo BASE_URL; ?>home/index.php#home" class="past-art" <?php if ($homeArticle=="home") echo " id=\"selected-art\""; ?> >
-			<img src="../img/andrew-susac-nolan-arenado-mlb-colorado-rockies-san-francisco-giants1-850x560.jpg" class="img-link">HOME
+			<img src="../img/tumblr_maxaybcixJ1qb5gtvo1_500.png" class="img-link">HOME
+		</a>
+  </div>
+  <div  class="old-articles">
+		<a href="<?php echo BASE_URL; ?>home/arenado_mvp.php#arenado" class="past-art" <?php if ($homeArticle=="arenado") echo " id=\"selected-art\""; ?> >
+			<img src="../img/andrew-susac-nolan-arenado-mlb-colorado-rockies-san-francisco-giants1-850x560.jpg" class="img-link">Arenado for MVP
 		</a>
   </div>
   <div class="old-articles">

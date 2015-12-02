@@ -5,7 +5,7 @@
     <h3 class="season-nfl">2015 NFL</h3>
   </div>
   <div class="record-intro">
-    <h4 class="record-cfb">77-62-2</h4>
+    <h4 class="record-cfb">79-66-2</h4>
     <h4 class="record-nfl">33-24</h4>
   </div> 
 </div>
@@ -13,6 +13,11 @@
 	<div class="old-articles">
 		<a href="<?php echo BASE_URL; ?>picks/index.php#home-picks" class="past-art" <?php if ($picksArticle=="home") echo " id=\"selected-art\""; ?>>
       <img src="../img/vegas.jpg" class="img-link">HOME
+    </a>
+  </div>
+  <div class="old-articles">
+    <a href="<?php echo BASE_URL; ?>picks/week11_nfl.php#nfl11" class="past-art" <?php if ($picksArticle=="week11nfl") echo " id=\"selected-art\""; ?>>
+      <img src="../img/thomas-rawls-nfl-san-francisco-49ers-seattle-seahawks-850x560.jpg" class="img-link">WEEK 11 NFL
     </a>
   </div>
   <div class="old-articles">

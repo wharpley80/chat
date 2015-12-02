@@ -16,49 +16,40 @@ include(ROOT_PATH . 'inc/header.php');
 <?php include(ROOT_PATH . 'inc/picks_articles.php'); ?>
 <a name="home-picks"></a>
 <div class="picks-weekly">
-	<h2 class="picks-recap">NFL Week 11 (2-2)</h2>
-	<img src="../img/vegas.jpg" class="picks-pic">
+	<h2 class="picks-recap">Rivalry Week (2-4)</h2>
+	<img src="../img/16462547-mmmain.jpg" class="picks-pic">
 	<p class="picks-talk">
 	</P>
-	<h3 class="my-picks">Jacksonville -3</h3>
-	<p class="picks-talk">The Jaguars(3-6) come in winners 2 of their last 3 and are moving in the right direction. Bortles is 
-		gaining confidence as the season progresses and he is surrounded by a deep group of young playmakers. Bortles has thrown for 2 or more TDs in 7 of 9 games and has played consistant for most the season. The Titans(2-7) have seen good production
-		out of Mariota when he's been healthy, but the team as a whole has struggled with consistancey for most the season. This 
-		will be the Jaguars first home game in over a month and I just really like the direction they are going. So I'll take the home team on the shorst week.
+	<h3 class="my-picks">Iowa -3</h3>
+	<p class="picks-talk">I know this looks like a dangerous game for the Hawkeyes. They have already clinched their trip to the
+		Big 10 title game next week and Nebraska needs a win here to get bowl eligible. Most people also think Iowa is overated as
+		well, so they are just anticipating the let down. I don't agree with most people and believe that Iowa is playing as good of
+		football as anyone in the country. They aren't the most talented by any means, but are well coached and are playing solid football in all phases. Nebraska is just not a very good team this year and Iowa will probably meat their match next week, but I expect them to win this game easily here.
 	</p>
-	<h3 class="loser">Jets -3</h3>
-	<p class="picks-talk">The Jets(5-4) travel to Houston to take on the Texans(4-5). Houston has already lost Arian Foster for 
-		the year due to injury and now Brian Hoyer will not suit up this week due to the concussion he suffered Monday Night. TJ Yates is filling in and even though he looked servicable Monday Night he is without a doubt a downgrade from Hoyer. Although
-		Houston is coming in off their biggest win of the season an upset over the undefeated Bengals. I still don't have ANY confidence in them to follow that up here. Even though Houston has won 3 of 4 and the Jets have lost 3 of 4. The Jets have the #1 rushing defense in the NFl, which will put extra pressure on Yates. Houston ranks 25th in rush defense which should allow the Jets to have a balanced offensive attack. Give me the Jets to get back on track here and cover on the road.
+	<h3 class="my-picks">Ohio State -1</h3>
+	<p class="picks-talk">Ohio State has been a mess offensively ALL season. This can be attributed to play-calling, coaching, and
+		player execution. Everything fell apart last week in what was really the Perfect Storm. While the loss last week may have cost them a Big 10 title and a shot at the CFB playoffs. I think it may just drag them out of their National Title hangover that they've been in all year. Don't get me wrong there is a part of me that still thinks this could be a complete mess and the Buckeyes get throtled, but I'm betting that Urban will use his "Us against the World" ploy to get this team fired up and pull out the victory. 
 	</p>
-	<h3 class="loser">Atlanta -4</h3>
-	<p class="picks-talk">The Falcons(6-3) come in losers 3 of their last 4, but are also coming off of their bye week. The 
-		Colts(4-5) are also coming off their bye and a big win over the Broncos, but they are also without Andrew Luck. Although Hasselback is 2-0 in his starts in replacement of Luck this year. I think this will be his most difficult task this year
-		as the Falcons rank 3rd in rushing defense and this should put the burden on Hasselback. This is a good opportunity for the Falcons to get back on track against a banged up Colts team that are also without defensive leader Mike Adams. 
+	<h3 class="loser">Virginia Tech -3.5</h3>
+	<p class="picks-talk">Well the Hokies tried hard to send Beamer out with a win in his final home game, but fell short in OT 
+		to UNC. VT was really out matched in that game so it was a difficult task to fill. Now they need a win on the road against in-state rival Virginia to secure Beamer one last Bowl game. Lucky for VT they have beaten the Cavaliers 11 straight times. It would be a horrible set of circumstances for VT to fall here and I just don't see anyone letting that happen. Could be a close game, but given the circumstances I'll bet on VT getting the cover here. God Bless anyone who bets against VT here because I sure don't have the balls to do so. 
 	</p>
-	<h3 class="my-picks">Seattle -13</h3>
-	<p class="picks-talk">49ers have lost their last 3 games to Seattle by an average of 23.66 points... those were good 49ers 
-		teams. Blaine Gabbert admittedly looked better in his first start than Kaepernick has over the last year, but playing at Seattle is a little more difficult than playing at home. No Carlos Hyde again today, so I really see a long and difficult day for Gabbert and the offense. 
+	<h3 class="loser">Vanderbilt +17.5</h3>
+	<p class="picks-talk">I really like the matchup on paper here. Tennessee relies heavily on the run while Vandy does a 
+		respectable job defending the run ranked 24th in the nation. Vandy does have trouble offensively and they really need to be able to run the ball to have any shot here. The Vols rank 47th in rushing defense, so I think that will allow the Commodores to move the chains and at least keep the game close. Tennessee is obviously the dominant team here, but there are matchups I like enough to keep it within the number above. Although if the line drops below 17 then I'd advise staying away.
 	</p>
-	<h3class="my-picks"></h3>
-	<p class="picks-talk">
+	<h3 class="loser">Mississippi State +1</h3>
+	<p class="picks-talk">This is by far the best SEC game of the weekend considering that the Iron Bowl won't be very competative
+		. Another in-state rivalry game that should be full of emotions and bad intentions. This will be Dak Prescott's final home game and it sets up pretty good for him matchup wise. State is pretty one dimensional relying heavy on the passing game, but fortunate for them Ole Miss ranks 101st in pass defense. Considering that matchup I just don't see the Rebels sending Prescott out with a loss.
 	</p>
-	<h3 class="my-picks"></h3>
-	<p class="picks-talk">
-	</p>
-	<h3 class="my-picks"></h3>
-	<p class="picks-talk">
+	<h3 class="loser">Oklahoma State +7</h3>
+	<p class="picks-talk">The Cowboys are coming off their first loss of the season last week and acoording to many the Sooners 
+		are the hottest team in the country. This is a difficult spot for them beacuse they need a convincing win on the road against their in-state rival to leave a good impression on the Playoff Committee. I think these 2 teams are evenly matched and also think the Sooners may get caught pressing a little bit here. Cowboys should keep it close at home and wouldn't be suprised at all if they pulled off the upset. 
 	</p>
 	<h3 class="my-picks"></h3>
 	<p class="picks-talk">
 	</p>
-	<h3 class="my-picks"></h3>
-	<p class="picks-talk">
-	</p>
-  <h3 class="my-picks"></h3> 
-	<p class="picks-talk">
-	</p>
-  <h3 class="my-picks"></h3> 
+  <h3 class="loser"></h3> 
 	<p class="picks-talk">
 	</p>
 	<h3 class="my-picks"></h3> 

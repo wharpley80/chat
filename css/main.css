@@ -251,13 +251,16 @@ a#selected-art {
 	padding: 0 5%;
 }
 
-.ttun-pic {
-	border: 3px solid #778899;
-	border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 60%;
+.nfl-star {
+	width: 30%;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nfl-list {
+	text-align: left;
+	color: #000;
 }
 
 .shoe {
@@ -300,6 +303,18 @@ a#selected-art {
 	margin-left: auto;
 	text-align: left;
 	text-indent: 20px;
+}
+
+.dfs-bb {
+	width: 35%;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+.bb-list {
+	text-align: left;
 }
 
 /*******************************
@@ -683,6 +698,18 @@ footer {
 
 	#chatwindow {
 		width: 70%;
+	}
+
+	.dfs-bb {
+		width: 75%;
+  }
+
+  .nfl-star {
+		width: 75%;
+  }
+
+	.bb-list {
+		font-size: .75em;
 	}
 
 	textarea {

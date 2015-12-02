@@ -16,48 +16,55 @@ include(ROOT_PATH . 'inc/header.php');
 <?php include(ROOT_PATH . 'inc/fantasy_articles.php'); ?>
 <a name="home-fantasy"></a>
 <div class="fantasy-intro">
-	<h2 class="fantasy-title">Daily Fantasy Value Picks</h2>
-	<img src="../img/hi-res-855ff8c9b8331a54b110fd279c2b3d1d_crop_north.jpg" class="fantasy-pic">
-	<h3>Matthew Stafford</h3>
-	<h4>$5,400 Draft Kings (20.38 Pts, $265 DPP)</h4>
-		<p class="fantasy-body">Stafford is not balling out by any stretch of the imagination, but I believe that given the right
-			matchup that he can still produce. This is without a doubt his best matchup of the year to date. Detroit is coming off of
-			their best game of the year winning at Green Bay for the first time since 1991. This should build at least a little
-			confidence in a struggling Detroit locker room. Now they travel back home to play against the Raiders who are the 27th
-			ranked in fantasy points allowed to opposing QBs and 31st in total pass defense. It sets up for Stafford to have a good day
-			and if he can score a modest 20 pts then that would be a .37 VPD based on his salary. I think Stafford is a safe play IMO as
-			crazy as it sounds. 
-		</p>
-	<h3>Charcandrick West</h3>
-	<h4>$4,500 Draft Kings (8.4 Pts, $535 DPP)</h4>
-		<p class="fantasy-body">This is the type of matchup that makes fantasy owners' mouth water, and is a LOCK as far as I'm concerned.
-			In his last 3 games West has posted the following points(VPD) 31.1(.65), 22.2(.47), and 23.9(.57). Now that is the type of value
-			that puts you in the money. This week lines up very well for West as he faces the Chargers who rank 32nd in fantasy points allowed
-			to RBs and 27th in total rushing defense. West will get the touches and you can only expect that he will produce and at this price
-			you have to see great value here.
-		</p>
-	<h3>Danny Amendola</h3>
-	<h4>$4,000 Draft Kings </h4>
-		<p class="fantasy-body">Julian Edelman went down last week and as a result Amendola had his highest recieving total of the year
-			hauling in 10 receptions. Edelman will miss some time out with surgery and it looks like Amendola will be the benefactor here. 
-			DK has not made the adjustment in Amendola's salary so take advantage before they do. Matchup wise it sets up to be above average
-			as Buffalo is ranked 22nd in fantasy points allowed to opposing WR, so looks like a good value play to me.
+	<h2 class="fantasy-title">NBA DFS Value Picks</h2>
+	<h3>Updated Wed, Dec. 2</h3>
+	<img src="../img/pi-nba-lakers-dangelo-russell-102215.vresize.1200.675.high.32.jpg" class="fantasy-pic">
+		<p class="fantasy-body">These are the players that rank top in DPP(Dollars Per Point) by position each day. The DPP is 
+			based off of their performance for the last 14 days. Keep in mind that a players status or playing time can fluctuate
+			daily based on a multitude of factors. Use this only as a general basis of a players value that day. Enjoy!
 		</P>
-	<h3>Darren McFadden</h3>
-	<h4>$5,000 Draft Kings (20.9 Pts, $239 DPP)</h4>
-		<p class="fantasy-body">Teams have been stacking the box against Dallas for obvious reasons, and with Romo making his return this
-			weekend you'd think that will change. Dez Bryant should be somewhat improved and teams will have to show respect to the passing
-			game which has been non-existant since Romo got injured. With teams focusing on Romo that opens up the running game, and it sets 
-			up as a solid matchup for that this week as the opponent is Miami who ranks 31st in fantasy points allowed to opposing RBs and
-			31st in total rushing defense. All that being said McFadden looks to be a good value play for the week.
-		</P>
-	<h3>Stevie Johnson</h3>
-	<h4>$3,900 Draft Kings (12.4 Pts, $314 DPP)</h4>
-		<p class="fantasy-body">With Keenan Allen done for the year and now Malcom Floyd looking like he cold be done for the year as well. There
-			are not many options left for Rivers to throw to. The Chargers may start running the ball a little more, but they will still be 
-			a pass first team beacuse they are incapable of run blocking. Johnson is the only WR left with legitimate experience as the team faces
-			off against the Cheifs who rank 32nd in fantasy points allowed to opposing WRs. 
-		</P>
+	<div class="dfs-bb">
+		<h3>Top 5 PG</h3>
+		<ol class="bb-list">
+			<li>K.Hinrich CHI $168 DPP</li>
+			<li>T.Parker SAS $176 DPP</li>
+			<li>B.Knight PHO $187 DPP</li>
+			<li>J.Calderon NYK $189 DPP</li>
+			<li>D.Russell LAL $198 DPP</li>
+		</ol>
+		<h3>Top 5 SG</h3>
+		<ol class="bb-list">
+			<li>J.Harden HOU $169 DPP</li>
+			<li>G.Neal WAS $179 DPP</li>
+			<li>J.Butler CHI $189 DPP</li>
+			<li>H.Thompson PHI $195 DPP</li>
+			<li>J.Clarkson LAL $195 DPP</li>
+		</ol>
+		<h3>Top 5 SF</h3>
+		<ol class="bb-list">
+			<li>M.Teletovic PHO $169 DPP</li>
+			<li>Cj.Miles IND $187 DPP</li>
+			<li>T.Sefolosha ATL $187 DPP</li>
+			<li>K.Leonard SAS $192 DPP</li>
+			<li>J.Grant PHI $193 DPP</li>
+		</ol>
+		<h3>Top 5 PF</h3>
+		<ol class="bb-list">
+			<li>P.Millsap ATL $174 DPP</li>
+			<li>J.Hill IND $183 DPP</li>
+			<li>N.Mirotic CHI $190 DPP</li>
+			<li>R.Anderson NOR $191 DPP</li>
+			<li>D.Green GSW $192 DPP</li>
+		</ol>
+		<h3>Top 5 C</h3>
+		<ol class="bb-list">
+			<li>M.Gortat WAS $177 DPP</li>
+			<li>I.Mahinmi IND $183 DPP</li>
+			<li>N.Jokic DEN $184 DPP</li>
+			<li>P.Gasol CHI $186 DPP</li>
+			<li>T.Duncan SAS $190 DPP</li>
+		</ol>
+  </div>
 	<h3></h3>
 	<h4></h4>
 		<p class="fantasy-body">
